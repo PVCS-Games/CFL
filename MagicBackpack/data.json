@@ -1464,5 +1464,47 @@
       "bāng zhù bié rén, zhēn kuài lè!",
       "Helping others makes me happy!"
     ]
+  },
+  "overview": {
+    "title": "神奇的书包",
+    "pinyin": "Shénqí de shūbāo",
+    "englishTitle": "The Magical Backpack",
+    "theme": {
+      "cn": "帮助别人，真快乐！",
+      "py": "Bāngzhù biérén, zhēn kuàilè!",
+      "en": "Helping others brings joy!"
+    },
+    "sections": [
+      {
+        "cn": "小明背着书包去学校。",
+        "py": "Xiǎomíng bēizhe shūbāo qù xuéxiào.",
+        "en": "Xiaoming takes his backpack to school."
+      },
+      {
+        "cn": "上美术课时，书包里有声音：“救命啊！”",
+        "py": "Shàng měishù kè shí, shūbāo lǐ yǒu shēngyīn: Jiùmìng a!",
+        "en": "During art class, a voice calls for help from the backpack."
+      },
+      {
+        "cn": "小明发现一只小猫被线缠住了！",
+        "py": "Xiǎomíng fāxiàn yì zhī xiǎomāo bèi xiàn chánzhù le!",
+        "en": "Xiaoming finds a kitten tangled in string."
+      },
+      {
+        "cn": "小明救出了小猫，小猫不小心把画弄破了。",
+        "py": "Xiǎomíng jiùchū le xiǎomāo, xiǎomāo bù xiǎoxīn bǎ huà nòngpò le.",
+        "en": "Xiaoming rescues the kitten, which accidentally tears his drawing."
+      },
+      {
+        "cn": "小明没有生气，重新画了一只小猫。",
+        "py": "Xiǎomíng méiyǒu shēngqì, chóngxīn huà le yì zhī xiǎomāo.",
+        "en": "Xiaoming is not angry and draws another kitten."
+      },
+      {
+        "cn": "老师说小明很有爱心。帮助别人，真快乐！",
+        "py": "Lǎoshī shuō Xiǎomíng hěn yǒu àixīn. Bāngzhù biérén, zhēn kuàilè!",
+        "en": "The teacher says Xiaoming is kind. Helping others brings joy!"
+      }
+    ]
   }
 }
