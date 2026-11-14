@@ -1,0 +1,247 @@
+<!DOCTYPE html><html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>我爱我的家 · Reading Quiz</title><style>
+:root{font-family:Arial,"Microsoft YaHei",sans-serif;background:#edf4fc;color:#233853}*{box-sizing:border-box}body{margin:0;padding:14px}main{max-width:1030px;margin:auto;background:white;border-radius:16px;overflow:hidden;box-shadow:0 6px 22px #27364f20}header{padding:21px;background:#eaf4ff}h1{margin:0 0 8px;font-size:29px;color:#17477d}.subtitle{color:#56708d}.tools,.tabs,.nav{display:flex;gap:9px;flex-wrap:wrap;margin-top:14px}button{cursor:pointer;font:inherit}button:focus-visible{outline:3px solid #7dbafa;outline-offset:2px}.tool,.tab,.nav button{background:white;border:1px solid #a9c4dd;color:#245784;border-radius:9px;padding:9px 14px}.tool.on,.tab.active{background:#1964ab;color:white}.tabs{padding:14px 22px;border-bottom:1px solid #dce7f2;margin:0}.panel{padding:18px 25px 30px}.reader{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(220px,.7fr);gap:20px}.slideImg{display:block;width:100%;max-height:675px;object-fit:contain;border:1px solid #dbe3eb;border-radius:10px}.side{padding:8px}.side h3{margin-top:5px}.translation,.pinyin{display:block;color:#536b86;font-size:15px;margin-top:5px;line-height:1.6}.pinyin{color:#aa5f37}.qcard{background:#fbfdff;border:1px solid #d8e4f2;border-radius:12px;padding:16px;margin:13px 0}.qtitle{font-size:23px;font-family:KaiTi,"Microsoft YaHei",serif;line-height:1.7;font-weight:700}.option{border:1px solid #dbe6f1;border-radius:9px;margin:9px 0;padding:9px;display:flex;align-items:flex-start;gap:10px;cursor:pointer}.option:has(input:checked){background:#ebf5ff;border-color:#6c9fda}.option input{margin:9px 0 0;accent-color:#246aac;width:18px;height:18px}.choiceText{font-size:21px;font-family:KaiTi,"Microsoft YaHei",serif;line-height:1.55}.say{background:#e7f3ff;border:1px solid #9ac5ed;border-radius:9px;padding:7px 9px;color:#22619f;flex-shrink:0}.srow{display:flex;align-items:center;gap:8px}.srow .qtitle{flex:1}.response{width:100%;min-height:86px;border:1px solid #aec6dd;border-radius:9px;font:20px/1.7 KaiTi,"Microsoft YaHei",serif;padding:12px}.fields{display:flex;gap:13px;flex-wrap:wrap}.fields label{font-weight:700}.fields input{display:block;width:230px;max-width:100%;border:1px solid #aac3dc;border-radius:8px;padding:11px;font-size:17px;margin-top:5px}.submit{background:#1766ac;color:white;border:0;border-radius:9px;padding:14px 20px;font-weight:700;font-size:17px}.status{font-weight:700;color:#215f8d;margin:13px 0}.hidden{display:none!important}.help{line-height:1.6;color:#576f86;font-size:14px}@media(max-width:720px){.reader{grid-template-columns:1fr}.panel{padding:14px}.qtitle{font-size:20px}.choiceText{font-size:18px}}
+
+.tool-hint{margin-top:8px;color:#4d6885;font-size:13px}.reader-line{font-family:KaiTi,"Microsoft YaHei",serif;font-size:27px;line-height:1.8;margin:14px 0;padding:10px;background:#f8fbff;border-radius:10px}.vocabHit,.grammarHit{border-radius:3px;cursor:help;box-decoration-break:clone;-webkit-box-decoration-break:clone}.vocabHit{background:linear-gradient(transparent 61%,#ffe28b 61%)}.grammarHit{background:linear-gradient(transparent 61%,#b9d9ff 61%)}body.hideVocab .vocabHit,body.hideGrammar .grammarHit{background:transparent}.hitHelp{font-size:14px;color:#55718e;background:#f3f8ff;border-left:3px solid #7da8d4;padding:8px 11px;min-height:24px;margin-top:10px}.hitHelp:empty{display:none}
+
+/* Template-aligned slender vocabulary and grammar markers. */
+.reader-line{background:#fff;line-height:2.65;letter-spacing:.012em}
+.vocabHit,.grammarHit{display:inline;border:0;padding:1px 1px;font:inherit;line-height:inherit;cursor:help;border-radius:3px;box-decoration-break:clone;-webkit-box-decoration-break:clone;transition:background-color .12s}
+.vocabHit{background:linear-gradient(to bottom,transparent 0,transparent 74%,#fff0bd 74%,#fff0bd 92%,transparent 92%,transparent 100%)}
+.grammarHit{background:linear-gradient(to bottom,transparent 0,transparent 74%,#dbeaff 74%,#dbeaff 92%,transparent 92%,transparent 100%)}
+body:not(.hideVocab) .vocabHit:is(:hover,:focus-visible,.is-active){background:#ffe18b;box-shadow:0 0 0 2px #ffe18b;border-radius:4px}
+body:not(.hideGrammar) .grammarHit:is(:hover,:focus-visible,.is-active){background:#b9d7ff;box-shadow:0 0 0 2px #b9d7ff;border-radius:4px}
+body.hideVocab .vocabHit,body.hideGrammar .grammarHit{background:none;box-shadow:none;cursor:text}
+.template-hover{position:fixed;z-index:10000;max-width:min(340px,calc(100vw - 24px));min-width:175px;background:white;border:1px solid #b9cee6;border-radius:10px;box-shadow:0 7px 24px #1e355438;padding:12px 15px;font:15px/1.55 Arial,sans-serif;color:#263a53;pointer-events:none;overflow-wrap:anywhere}
+.template-hover[hidden]{display:none}.template-hover.vocab-note{border-top:4px solid #e9be4c}.template-hover.grammar-note{border-top:4px solid #83aee8}
+.template-hover strong{font:22px KaiTi,'Microsoft YaHei',serif}.template-hover small{font:13px Arial,sans-serif;color:#627994;margin-left:7px}.template-hover .meaning{margin-top:5px}
+.reader-line.sentence-active .vocabHit,.reader-line.sentence-active .grammarHit,.reader-line.sentence-active .plainReading{ text-decoration:underline;text-decoration-color:#239b56;text-decoration-thickness:3px;text-underline-offset:7px;text-decoration-skip-ink:none}
+/* Keep the main sentence visibly underlined even when there are no marked units. */
+.reader-line.sentence-active{text-decoration:underline;text-decoration-color:#239b56;text-decoration-thickness:3px;text-underline-offset:7px}
+
+/* Spacious two-tab picture reader, following the Circle storybook design. */
+:root{background:#f0f6ff;color:#28394e}
+body{padding:18px;background:#f0f6ff}main{max-width:1100px;border-radius:18px;box-shadow:0 8px 32px #2030471c}
+header{padding:19px 24px;background:#f8fbff;border-bottom:1px solid #dce7f4}
+header h1{font-size:clamp(23px,3vw,32px);margin:0 0 5px}
+header .subtitle{display:block;font-size:14px}
+.tools{margin-top:15px;gap:8px}.tool{padding:10px 13px;border:1px solid #cbdbea;border-radius:10px;color:#315575}
+.tool.on{background:#e6f3ff;color:#11549d;border-color:#7bafe5}
+.tabs{background:#f7faff;border-bottom:1px solid #dce7f4;padding:12px 20px;gap:9px}
+.tab{padding:11px 22px;border:2px solid #b7cde7;border-radius:10px;font-weight:700;color:#17477d}
+.tab.active{background:#205eac;border-color:#205eac;color:#fff}
+.panel{padding:24px}.reader{grid-template-columns:minmax(0,1fr) minmax(0,.95fr);gap:24px;align-items:start}
+.slideImg{max-height:650px;border-radius:12px;background:#fffdf8}
+.side{padding:15px 8px;min-width:0}.side>h3,.side>.help{display:none}
+#counter{color:#68809c;font-size:14px;font-weight:700;margin:0 0 12px}
+.reader-line{font:clamp(27px,3.5vw,39px)/2.35 KaiTi,'Kaiti SC','STKaiti',serif;letter-spacing:0; padding:8px 0;margin:0;background:#fff;border:0;border-radius:0;overflow-wrap:anywhere}
+.reader-line .vocabHit,.reader-line .grammarHit{font:inherit}
+.tool-hint{margin:18px 0 0;font-size:13px;color:#637991;line-height:1.6}
+.nav{margin-top:25px}.nav button{font-weight:700;background:#eef6ff;border:1px solid #cbdbea;padding:10px 13px}
+#next{background:#205eac;color:white;border-color:#205eac}
+#quizPanel{padding:20px 27px 35px}.qcard{border:1px solid #dae5f1;border-radius:13px;padding:17px;margin:16px 0;background:#fcfdff}
+.qtitle{font:700 23px/1.6 KaiTi,'Microsoft YaHei',sans-serif;color:#164574}
+.option{border:1px solid #dbe5ef;padding:10px;margin:8px 0;border-radius:8px;font:20px/1.5 KaiTi,'Microsoft YaHei',sans-serif}
+.choiceText{font-size:20px}.say{border:1px solid #a3c7e9;background:#eaf4ff;color:#12549b}
+.pinyin,.translation{font:15px/1.55 Arial,sans-serif;letter-spacing:0;padding:0 4px;margin:3px 0 6px;color:#587392}
+.translation{background:#f0f6ff;border-left:3px solid #8db3e3;padding:5px 9px;margin:3px 0 8px}
+/* Show explanations on demand only, never in a permanent separate panel. */
+#wordExplanation{display:none!important}
+/* Pinyin and English only when corresponding toggles are enabled. */
+body.hidePy .pinyin,body.hideEn .translation{display:none!important}
+/* Hide story-reading-only actions while the Quiz tab is open. */
+body.circle-like-quiz #readPage,body.circle-like-quiz #vocabToggle,body.circle-like-quiz #grammarToggle{display:none}
+.page-rail{display:flex;gap:7px;flex-wrap:wrap;padding:12px 20px;background:#f7faff;border-bottom:1px solid #e1eaf4}
+.page-dot{min-width:44px;padding:9px 10px;border:1px solid #cbdbea;border-radius:10px;background:white;color:#315575;font-weight:700}
+.page-dot.active{background:#205eac;color:white;border-color:#205eac}
+.page-rail.hidden{display:none}
+@media(max-width:740px){body{padding:7px}.reader{grid-template-columns:1fr;padding:0;gap:14px}.panel{padding:13px}.side{padding:8px}.slideImg{max-height:470px}.reader-line{line-height:2.25}.tabs,.page-rail{padding:10px}.qcard{padding:13px}.qtitle{font-size:20px}.choiceText{font-size:18px}}
+
+/* Character-level pinyin, close to its matching Hanzi. */
+#storyPinyin{display:none!important}
+.reader-line{line-height:1.55}
+.reader-line ruby,.qtitle ruby,.choiceText ruby{ruby-position:over;ruby-align:center;white-space:nowrap;display:inline-ruby;vertical-align:baseline;min-width:1.04em}
+.reader-line rt,.qtitle rt,.choiceText rt{font:400 .38em/1.05 Arial,sans-serif;color:#587392;text-align:center;letter-spacing:0}
+.reader-line .vocabHit,.reader-line .grammarHit{line-height:1.55;vertical-align:baseline;white-space:normal}
+body.hidePy rt{display:none!important}
+.qtitle,.choiceText{line-height:1.7}
+.tool:disabled{opacity:.48;cursor:not-allowed}
+
+.tools{display:grid;grid-template-columns:repeat(auto-fit,minmax(125px,1fr));align-items:start;gap:12px}.tool-item{display:flex;flex-direction:column;gap:5px;min-width:0}.tool-item .tool{width:100%;min-height:42px}.toggle-instruction{font:12px/1.45 Arial,sans-serif;color:#536b86;padding:0 2px}.tool-item:has(>.tool[disabled]) .tool{opacity:.55;cursor:default}body.circle-like-quiz .tool-item:has(#readPage),body.circle-like-quiz .tool-item:has(#vocabToggle),body.circle-like-quiz .tool-item:has(#grammarToggle),body.circle-like-quiz .tool-item:has(#readWholeBook){display:none}
+header:not(.show-instructions) .toggle-instruction{display:none}.help-toggle-row{display:flex;justify-content:flex-end;margin-top:10px}.help-toggle-row .tool{font-size:13px;padding:6px 12px}
+
+/* Compact header and enlarged quiz typography. */
+header{padding:13px 20px 14px}.header-top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}.header-title{min-width:0}.header-top .help-toggle-row{margin:0;flex-shrink:0}.header-top .help-toggle-row .tool{white-space:nowrap;padding:6px 10px}.tools{margin-top:10px;gap:8px}.tool-item .tool{min-height:38px;padding:7px 8px}
+#quizPanel h2{font-size:30px}#quizPanel .help{font-size:16px}#quizPanel .qtitle{font-size:32px;line-height:1.85}#quizPanel .choiceText{font-size:29px;line-height:1.85}#quizPanel .response{font-size:27px;min-height:100px}#quizPanel .translation{font-size:18px}#quizPanel .fields label,#quizPanel .fields input{font-size:19px}#quizPanel .option input{width:22px;height:22px;margin-top:14px}#quizPanel .option{padding:12px}#quizPanel .say{font-size:18px}
+@media(max-width:740px){header{padding:10px 12px}.header-top{gap:8px}.header-top .help-toggle-row .tool{font-size:11px;padding:5px 7px}.header-title .subtitle{font-size:12px}.tools{gap:6px;margin-top:9px}#quizPanel h2{font-size:26px}#quizPanel .qtitle{font-size:27px}#quizPanel .choiceText{font-size:25px}#quizPanel .response{font-size:24px}#quizPanel .translation{font-size:16px}}
+
+.vocab-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(185px,1fr));gap:14px}.vocab-card{border:1px solid #cbdbea;border-radius:12px;padding:16px;background:#fff;display:flex;flex-direction:column;gap:10px;align-items:stretch}.vocab-word{font:36px/1.8 KaiTi,'Microsoft YaHei',serif;text-align:center;color:#17477d}.vocab-word ruby{ruby-position:over;ruby-align:center;white-space:nowrap;min-width:1.04em}.vocab-word rt{display:ruby-text!important;font:400 .38em/1.05 Arial,sans-serif;color:#587392}.vocab-meaning{font:17px/1.5 Arial,sans-serif;text-align:center;min-height:2.5em}.vocab-card .say{align-self:center}.vocab-reveal{border:1px solid #cbdbea;background:#eef6ff;color:#17477d;border-radius:8px;padding:8px}.vocab-card:not(.revealed) .vocab-word rt,.vocab-card:not(.revealed) .vocab-meaning{visibility:hidden}.vocab-card.revealed .vocab-word rt{display:ruby-text!important}.vocab-card.revealed .vocab-meaning{visibility:visible}.vocab-card.revealed .vocab-word rt{visibility:visible}.vocab-actions{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 18px}
+
+/* Reusable illustrated mind map */
+#mindPanel h2{margin:0 0 6px;color:#17477d}.mind-center{max-width:380px;margin:24px auto 0;background:#eaf2ff;border:2px solid #94b5e4;border-radius:16px;padding:18px;text-align:center}.mind-grid{position:relative;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;padding-top:35px}.mind-grid:before{content:'';position:absolute;top:0;left:50%;height:30px;border-left:2px solid #94b5e4}.mind-node{position:relative;min-width:0;border:1px solid #cbdbea;border-top:4px solid var(--branch-color,#94b5e4);border-radius:14px;background:#fff;padding:12px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:8px}.mind-node:before{content:'';position:absolute;top:-18px;left:50%;height:14px;border-left:2px solid var(--branch-color,#94b5e4)}.mind-node img{width:100%;height:150px;object-fit:contain;border-radius:8px;background:#fff}.mind-text{font:clamp(22px,3vw,30px)/2.1 KaiTi,'Kaiti SC','Microsoft YaHei',serif;color:#17477d;overflow-wrap:anywhere}.mind-text ruby{ruby-position:over;ruby-align:center;white-space:nowrap;display:inline-ruby;min-width:1.04em}.mind-text rt{font:400 .42em/1.05 Arial,sans-serif;color:#587392}.hidePy .mind-text rt{display:none}.mind-center .mind-text{font-size:34px}.mind-node .translation,.mind-center .translation{margin:0;width:100%;font-size:15px}.mind-audio{display:flex;justify-content:center;margin-top:4px}.mind-grid .mind-node:last-child:nth-child(3n+1){grid-column:2}@media(max-width:700px){.mind-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.mind-grid .mind-node:last-child:nth-child(3n+1){grid-column:auto}.mind-node img{height:115px}.mind-text{font-size:23px}}@media(max-width:380px){.mind-grid{grid-template-columns:1fr}}
+</style><style>.poster-map{position:relative;width:100%;max-width:1200px;margin:auto;background:white;box-shadow:0 8px 40px #244e7410}.poster-map img{display:block;width:100%;height:auto}.poster-hotspot{position:absolute;border:3px solid transparent;border-radius:24px;background:transparent;padding:0;cursor:pointer}.poster-hotspot:hover,.poster-hotspot:focus-visible{background:#ffffff26;border-color:#237cce}.poster-hotspot.playing{border-color:#0a9b61;box-shadow:0 0 0 4px #35c78966}.poster-hotspot span{position:absolute;right:6%;top:8%;border-radius:50%;background:#ffffffea;padding:5px;font-size:clamp(12px,2vw,23px);box-shadow:0 2px 7px #0002}.poster-buttons{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:14px 0}.poster-buttons button{border-bottom:4px solid var(--c)}.poster-reading{text-align:center;margin:12px 0;font-size:clamp(22px,3vw,32px);font-family:KaiTi,STKaiti,serif}.poster-reading .translation{font-size:16px}#mindPosterStop{display:block;margin:8px auto}#mindPosterView[hidden],#mindCenter[hidden],#mindBranches[hidden]{display:none!important}@media(max-width:600px){.poster-hotspot{border-radius:12px}.poster-hotspot span{padding:2px}}</style></head><body><main><header><div class="header-top"><div class="header-title"><h1>我爱我的家</h1><span class="subtitle">互动图片阅读与测验 · Interactive Picture Reading & Quiz</span></div><div class="help-toggle-row"><button id="instructionsToggle" class="tool" type="button" aria-pressed="false">Show Instructions</button></div></div><div class="tools"><div class="tool-item"><button aria-describedby="hint-vocabToggle" id="vocabToggle" class="tool on" type="button" aria-pressed="true">Vocabulary 词语</button><span class="toggle-instruction" id="hint-vocabToggle">Show or hide highlighted vocabulary. Click or hover over a highlighted word to see its meaning.</span></div><div class="tool-item"><button aria-describedby="hint-grammarToggle" id="grammarToggle" class="tool on" type="button" aria-pressed="true">Grammar 句型</button><span class="toggle-instruction" id="hint-grammarToggle">Show or hide highlighted grammar. Click or hover over a highlighted phrase to see its explanation.</span></div><div class="tool-item"><button aria-describedby="hint-pyToggle" id="pyToggle" class="tool on" type="button" aria-pressed="true">Pinyin 拼音</button><span class="toggle-instruction" id="hint-pyToggle">Show or hide Pinyin above Chinese characters.</span></div><div class="tool-item"><button aria-describedby="hint-enToggle" id="enToggle" class="tool" type="button" aria-pressed="false">English 英文</button><span class="toggle-instruction" id="hint-enToggle">Show or hide English translations.</span></div><div class="tool-item"><button aria-describedby="hint-slow" id="slow" class="tool" type="button">Slow 慢速</button><span class="toggle-instruction" id="hint-slow">Turn slow audio on or off.</span></div><div class="tool-item"><button aria-describedby="hint-readPage" id="readPage" class="tool" type="button">🔊 Read This Page</button><span class="toggle-instruction" id="hint-readPage">Listen to the current story page.</span></div><div class="tool-item"><button aria-describedby="hint-readWholeBook" class="tool" id="readWholeBook" type="button" aria-pressed="false">▶ Read Whole Book</button><span class="toggle-instruction" id="hint-readWholeBook">Listen to the entire story in order.</span></div></div></header><div class="tabs"><button class="tab active" id="tabStory" type="button">📖 故事 Story</button><button class="tab" id="tabMind" type="button">Mind Map 思维导图</button><button class="tab" id="tabVocab" type="button">Vocabulary 词语</button><button class="tab" id="tabQuiz" type="button">✏️ 阅读测验 Quiz</button></div><section class="panel" id="readerPanel"><div class="reader"><img class="slideImg" id="slideImg" alt="Original illustrated PowerPoint book page"><div class="side"><p class="help">这些图片来自你上传的 PowerPoint。Read the Chinese sentence and explore the picture. Use Pinyin, English, or audio to help.</p><p id="counter"></p><div id="readerLine" class="reader-line" lang="zh-CN"></div><div id="storyPinyin" class="pinyin" lang="zh-Latn" aria-label="Story Pinyin"></div><div id="storyEnglish" class="translation" lang="en" aria-label="Story English translation"></div><div id="wordExplanation" class="hitHelp" role="status"></div><div class="nav"><button id="prev">← Previous</button><button id="next">Next →</button></div><p class="help">图片中的拼音是原书的一部分。Pinyin and English switches control the reading text and quiz. Text already printed inside original slide pictures cannot be hidden.</p></div></div></section><section id="mindPanel" class="panel hidden"><h2>Mind Map</h2><p class="help">Click an illustrated box or an audio button to listen. Pinyin and English appear below the poster when enabled.</p><div id="mindPosterView" hidden><div class="poster-map" id="mindPoster"></div><div class="poster-buttons" id="mindPosterButtons"></div><div id="mindPosterReading" class="poster-reading" aria-live="polite"></div><button type="button" id="mindPosterStop" class="tool">■ Stop</button></div><div id="mindCenter" class="mind-center"></div><div id="mindBranches" class="mind-grid"></div></section><section id="vocabPanel" class="panel hidden"><h2>Vocabulary Review</h2><p class="help">Read each Chinese word. Tap Reveal to see its Pinyin and English meaning, or tap the speaker to listen.</p><div class="vocab-actions"><button class="tool" id="revealVocab" type="button">Reveal All</button><button class="tool" id="hideVocabCards" type="button">Hide All</button></div><div id="vocabCards" class="vocab-grid"></div></section><section id="quizPanel" class="panel hidden"><h2>我爱我的家 · 阅读理解</h2><p class="help">8 道选择题 + 2 道简答题。点击 🔊 听问题和答案。8 multiple-choice and 2 short answers. Your score and the answer key are not shown.</p><div class="fields"><label>学生姓名 Student name<input id="studentName" autocomplete="name" placeholder="Name"></label></div><div id="questions"></div><button class="submit" id="submit" type="button">提交 Submit</button><div id="status" class="status" aria-live="polite"></div><p class="help">提交后老师会在 Google Form 查看。A submitted request does not guarantee receipt; the teacher should verify a test response.</p></section></main><div id="floatingHighlightNote" class="template-hover" role="tooltip" hidden><div><strong></strong><small></small></div><div class="meaning"></div></div><iframe name="hiddenSubmitFrame" title="Hidden Google Form submission" style="display:none" tabindex="-1"></iframe><script>
+async function initStorybook(){
+const response=await fetch('./storybook.json');
+if(!response.ok) throw new Error('HTTP '+response.status);
+const DATA=await response.json();
+document.querySelector('header h1').textContent=DATA.title;
+document.title=DATA.title+' · Reading Quiz';
+document.querySelector('#quizPanel h2').textContent=DATA.title+' · 阅读理解';
+const mcCount=DATA.questions.filter(q=>q.opts).length;
+const writtenCount=DATA.questions.length-mcCount;
+document.querySelector('#quizPanel .help').textContent=`${mcCount} 道选择题 + ${writtenCount} 道简答题。点击 🔊 听问题和答案。${mcCount} multiple-choice and ${writtenCount} short answers. Your score and the answer key are not shown.`;
+
+let current=0, quizVisible=false, completed=false;
+const visitedPages=new Set();
+const fullReading=()=>visitedPages.size===DATA.slides.length;
+function updateReadingProgress(){const b=document.getElementById("readWholeBook");b.disabled=false;}
+const $=id=>document.getElementById(id);
+function pyNode(c){const s=document.createElement('div');s.className='pinyin lang-py';s.textContent=c;return s;}
+function enNode(c){const s=document.createElement('div');s.className='translation lang-en';s.textContent=c;return s;}
+function speak(text){if(!('speechSynthesis' in window)){alert('Audio is not available in this browser.');return;}speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='zh-CN';u.rate=$('slow').classList.contains('on')?.7:1;
+ document.getElementById('readerLine').classList.remove('sentence-active');
+ if(!quizVisible){document.getElementById('readerLine').classList.add('sentence-active');u.onend=()=>document.getElementById('readerLine').classList.remove('sentence-active');u.onerror=()=>document.getElementById('readerLine').classList.remove('sentence-active');}
+ speechSynthesis.speak(u);}
+function voiceButton(txt){const b=document.createElement('button');b.type='button';b.className='say';b.textContent='🔊';b.title='Listen 听一听';b.setAttribute('aria-label','Play Chinese audio: '+txt);b.onclick=()=>speak(txt);return b;}
+const STORY_LANG=DATA.storyLang;
+function displaySlide(trackVisit=true){if(trackVisit)visitedPages.add(current);updateReadingProgress();hideMark();$('readerLine').classList.remove('sentence-active');const img=$('slideImg');img.src=DATA.slides[current];$('counter').textContent='第 '+(current+1)+' / '+DATA.slides.length+' 页 · Slide '+(current+1)+' of '+DATA.slides.length;const storyLanguage=STORY_LANG[current]||{};markedText($('readerLine'),DATA.lessonText[current]||'',storyLanguage.characterPinyin||[]);$('storyPinyin').textContent=storyLanguage.pinyin||'';$('storyEnglish').textContent=storyLanguage.english||'';$('wordExplanation').textContent='';$('prev').disabled=current===0;$('next').disabled=current===DATA.slides.length-1;}
+function setView(view){stopWholeBook();hideMark();$('readerLine').classList.remove('sentence-active');quizVisible=view!=='story';for(const [key,panel,tab] of [['story','readerPanel','tabStory'],['mind','mindPanel','tabMind'],['vocab','vocabPanel','tabVocab'],['quiz','quizPanel','tabQuiz']]){const active=view===key;$(panel).classList.toggle('hidden',!active);$(tab).classList.toggle('active',active);}for(const id of ['readPage','readWholeBook','vocabToggle','grammarToggle']){$(id).closest('.tool-item').classList.toggle('hidden',view!=='story');}for(const id of ['pyToggle','enToggle']){$(id).closest('.tool-item').classList.toggle('hidden',view==='vocab');}window.scrollTo({top:0,behavior:'instant'});window.speechSynthesis?.cancel?.();}
+function toggle(id,cl){const b=$(id);const on=b.classList.toggle('on');b.setAttribute('aria-pressed',String(on));document.body.classList.toggle(cl,!on);hideMark();}
+
+
+// Reusable-template hover notes: floating near selected Chinese text.
+let activeMark=null;
+const floatNote=document.getElementById('floatingHighlightNote');
+function hideMark(){if(activeMark)activeMark.classList.remove('is-active');activeMark=null;floatNote.hidden=true;}
+function positionMark(){if(!activeMark||floatNote.hidden)return;const r=activeMark.getBoundingClientRect(),w=floatNote.offsetWidth,h=floatNote.offsetHeight,p=12,g=9;let left=Math.max(p,Math.min(r.left+(r.width-w)/2,innerWidth-w-p));let top=r.bottom+g;if(top+h>innerHeight-p&&r.top-h-g>=p)top=r.top-h-g;else top=Math.min(top,Math.max(p,innerHeight-h-p));floatNote.style.left=left+'px';floatNote.style.top=top+'px';}
+function showMark(el,hit){if(document.body.classList.contains(hit.kind==='vocab'?'hideVocab':'hideGrammar')){hideMark();return;}if(activeMark&&activeMark!==el)activeMark.classList.remove('is-active');activeMark=el;el.classList.add('is-active');floatNote.className='template-hover '+hit.kind+'-note';floatNote.querySelector('strong').textContent=hit.word;floatNote.querySelector('.meaning').textContent=hit.meaning;floatNote.hidden=false;positionMark();}
+window.addEventListener('scroll',positionMark,{passive:true});window.addEventListener('resize',positionMark);
+document.addEventListener('pointerdown',e=>{if(!e.target.closest('.vocabHit,.grammarHit'))hideMark()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')hideMark()});
+
+const HIGHLIGHTS=DATA.highlights;
+const HITS=[];
+for(const kind of ['grammar','vocab'])for(const [word,meaning] of Object.entries(HIGHLIGHTS[kind]))HITS.push({word,meaning,kind});
+HITS.sort((a,b)=>b.word.length-a.word.length);
+function rubyText(el,txt,pinyin){
+  const list=Array.isArray(pinyin)?pinyin:(String(pinyin||'').trim().match(/[^\s.,!?;:，。！？；：]+/g)||[]);let n=0;
+  for(const ch of String(txt||'')){if(/\p{Script=Han}/u.test(ch)){const ruby=document.createElement('ruby');ruby.append(document.createTextNode(ch));const rt=document.createElement('rt');rt.textContent=list[n++]||'';ruby.append(rt);el.append(ruby);}else el.append(document.createTextNode(ch));}
+}
+function markedText(el,txt,pinyin){
+  const list=Array.isArray(pinyin)?pinyin:[];let offset=0;
+  function add(target,part){const count=(part.match(/\p{Script=Han}/gu)||[]).length;rubyText(target,part,list.slice(offset,offset+count));offset+=count;}
+  el.replaceChildren();txt=String(txt||'');let cursor=0;
+  while(cursor<txt.length){let found=null,index=txt.length;
+    for(const hit of HITS){const at=txt.indexOf(hit.word,cursor);if(at!==-1&&(at<index||(at===index&&hit.word.length>(found?.word.length||0)))){index=at;found=hit;}}
+    if(!found){add(el,txt.slice(cursor));break;}
+    if(index>cursor)add(el,txt.slice(cursor,index));
+    const span=document.createElement('button');span.type='button';span.className=found.kind==='vocab'?'vocabHit':'grammarHit';add(span,found.word);span.setAttribute('aria-label',found.word+': '+found.meaning);
+    span.addEventListener('mouseenter',()=>showMark(span,found));span.addEventListener('mouseleave',()=>{if(activeMark===span)hideMark();});
+    span.addEventListener('focus',()=>showMark(span,found));span.addEventListener('blur',()=>{if(activeMark===span)hideMark();});
+    span.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();if(activeMark===span&&!floatNote.hidden)hideMark();else showMark(span,found);});
+    el.append(span);cursor=index+found.word.length;
+  }
+}
+
+function drawVocabulary(){
+ const place=$('vocabCards');place.replaceChildren();
+ const sources=DATA.lessonText.map((zh,i)=>({zh,characterPinyin:DATA.storyLang[i]?.characterPinyin})).concat(DATA.questions.flatMap(q=>[q,...(q.opts||[])]));
+ function pronunciation(word){const explicit=DATA.vocabularyPinyin?.[word];if(Array.isArray(explicit))return explicit;for(const source of sources){const chars=Array.from(source.zh||'').filter(c=>/\p{Script=Han}/u.test(c)).join('');const at=chars.indexOf(word);if(at>=0&&Array.isArray(source.characterPinyin)){const result=source.characterPinyin.slice(at,at+Array.from(word).length);if(result.length===Array.from(word).length&&result.every(Boolean))return result;}}return [];}
+ function reveal(card,on){card.classList.toggle('revealed',on);const b=card.querySelector('.vocab-reveal');b.textContent=on?'Hide':'Reveal';b.setAttribute('aria-expanded',String(on));}
+ for(const [word,meaning] of Object.entries(DATA.highlights?.vocab||{})){const card=document.createElement('article');card.className='vocab-card';const label=document.createElement('div');label.className='vocab-word';rubyText(label,word,pronunciation(word));const en=document.createElement('div');en.className='vocab-meaning';en.textContent=meaning;const btn=document.createElement('button');btn.type='button';btn.className='vocab-reveal';btn.onclick=()=>reveal(card,!card.classList.contains('revealed'));card.append(label,en,voiceButton(word),btn);reveal(card,false);place.append(card);}
+ if(!place.children.length)place.textContent='No vocabulary is available for this story.';
+ $('revealVocab').onclick=()=>place.querySelectorAll('.vocab-card').forEach(c=>reveal(c,true));$('hideVocabCards').onclick=()=>place.querySelectorAll('.vocab-card').forEach(c=>reveal(c,false));
+}
+function drawMindMap(){
+ const seen=new Set([String(DATA.title).replace(/[。！？\s]/g,'')]);
+ const fallback=DATA.lessonText.flatMap((zh,i)=>{const key=String(zh).replace(/[。！？\s]/g,'');if(!key||seen.has(key))return [];seen.add(key);const l=DATA.storyLang[i]||{};return [{zh,page:i+1,characterPinyin:l.characterPinyin,en:l.english}];});
+ const map=DATA.mindMap||{};const center=map.center||{zh:DATA.title,characterPinyin:DATA.storyLang[0]?.characterPinyin,en:DATA.storyLang[0]?.english};
+ const branches=Array.isArray(map.branches)?map.branches:fallback;
+ if(map.poster && branches.some(b=>Array.isArray(b.hotspot))){
+  $('mindPosterView').hidden=false;$('mindCenter').hidden=true;$('mindBranches').hidden=true;
+  const surface=$('mindPoster'),buttons=$('mindPosterButtons'),reading=$('mindPosterReading');surface.replaceChildren();buttons.replaceChildren();reading.replaceChildren();
+  const image=document.createElement('img');image.src=map.poster;image.alt=DATA.title+' — illustrated mind map';surface.append(image);
+  const clear=()=>surface.querySelectorAll('.playing').forEach(b=>b.classList.remove('playing'));
+  let active=null;
+  function stop(){clear();if(active){active.onend=null;active.onerror=null;active=null;}window.speechSynthesis?.cancel();}
+  function play(item,b){stop();reading.replaceChildren();const line=document.createElement('div');rubyText(line,item.zh,item.characterPinyin||[]);reading.append(line);if(item.en)reading.append(enNode(item.en));
+   if(!window.speechSynthesis||!window.SpeechSynthesisUtterance){reading.append(document.createTextNode(' Audio is unavailable in this browser.'));return;}
+   const u=new SpeechSynthesisUtterance(item.zh);active=u;u.lang='zh-CN';u.rate=$('slow').classList.contains('on')?0.7:1;const voices=window.speechSynthesis.getVoices();const voice=voices.find(v=>/^zh[-_]CN$/i.test(v.lang))||voices.find(v=>/^zh/i.test(v.lang));if(voice)u.voice=voice;
+   u.onstart=()=>{if(active===u)b.classList.add('playing');};u.onend=u.onerror=()=>{if(active===u){clear();active=null;}};window.speechSynthesis.resume();window.speechSynthesis.speak(u);
+  }
+  branches.forEach(item=>{if(!Array.isArray(item.hotspot)||item.hotspot.length!==4)return;const b=document.createElement('button');b.type='button';b.className='poster-hotspot';const [x,y,w,h]=item.hotspot;b.style.cssText=`left:${x}%;top:${y}%;width:${w}%;height:${h}%`;b.setAttribute('aria-label','Listen: '+item.zh);const icon=document.createElement('span');icon.textContent='🔊';icon.setAttribute('aria-hidden','true');b.append(icon);b.onclick=()=>play(item,b);surface.append(b);const l=document.createElement('button');l.type='button';l.className='tool';l.style.setProperty('--c',item.color||'#85a9dc');l.textContent='🔊 '+item.zh;l.onclick=()=>play(item,b);buttons.append(l);});
+  $('mindPosterStop').onclick=stop;for(const id of ['tabStory','tabVocab','tabQuiz'])$(id).addEventListener('click',stop);window.addEventListener('pagehide',stop);return;
+ }
+ const colors=['#85a9dc','#e1b66b','#9abfaa','#b9a4d8','#87bdc7','#daa3a3','#91a9db'];
+ function fill(node,item){const text=document.createElement('div');text.className='mind-text';rubyText(text,item.zh,item.characterPinyin||[]);node.append(text);if(item.en)node.append(enNode(item.en));const audio=document.createElement('div');audio.className='mind-audio';audio.append(voiceButton(item.zh));node.append(audio);}
+ const root=$('mindCenter');root.replaceChildren();fill(root,center);
+ const grid=$('mindBranches');grid.replaceChildren();branches.forEach((item,i)=>{const node=document.createElement('article');node.className='mind-node';node.style.setProperty('--branch-color',colors[i%colors.length]);if(Number.isInteger(item.page)&&DATA.slides[item.page-1]){const img=document.createElement('img');img.src=DATA.slides[item.page-1];img.alt=item.zh;img.loading='lazy';node.append(img);}fill(node,item);grid.append(node);});
+}
+
+function drawQuiz(){const place=$('questions');place.replaceChildren();DATA.questions.forEach((q,i)=>{const card=document.createElement('section');card.className='qcard';const r=document.createElement('div');r.className='srow';const h=document.createElement('div');h.className='qtitle';rubyText(h,(i+1)+'. '+q.zh,q.characterPinyin||q.py);r.append(h,voiceButton(q.zh));card.append(r,enNode(q.en));if(q.opts){q.opts.forEach((opt,j)=>{const lab=document.createElement('label');lab.className='option';const inp=document.createElement('input');inp.type='radio';inp.name='mc'+i;inp.value=String(j);const s=document.createElement('span');s.style.flex='1';const t=document.createElement('span');t.className='choiceText';rubyText(t,'ABCD'[j]+'. '+opt.zh,opt.characterPinyin||opt.py);s.append(t,enNode(opt.en));lab.append(inp,s,voiceButton(opt.zh));lab.querySelector('.say').addEventListener('click',e=>{e.preventDefault();e.stopPropagation();});card.append(lab);});}else{const ta=document.createElement('textarea');ta.id='written'+i;ta.className='response';ta.placeholder='请写你的答案 Write your answer...';card.append(ta);}place.append(card);});}
+function submitQuiz(){if(completed)return;const name=$('studentName').value.trim(),cls='CFL';if(!name){$('status').textContent='请填写姓名。Please enter your name.';return;}for(let i=0;i<DATA.questions.length;i++)if(DATA.questions[i].opts&&!document.querySelector('input[name="mc'+i+'"]:checked')){$('status').textContent='请完成第 '+(i+1)+' 题。 Please answer question '+(i+1)+'.';return;}for(let i=0;i<DATA.questions.length;i++)if(!DATA.questions[i].opts&&!$('written'+i).value.trim()){$('status').textContent='请完成第 '+(i+1)+' 题。Please write an answer to question '+(i+1)+'.';return;}
+let correct=0;const lines=[];const written=[];DATA.questions.forEach((q,i)=>{if(q.opts){const choice=Number(document.querySelector('input[name="mc'+i+'"]:checked').value);const ok=choice===q.correct;if(ok)correct++;lines.push((i+1)+'. '+q.zh+'\nStudent answer: '+'ABCD'[choice]+'. '+q.opts[choice].zh+'\nResult: '+(ok?'Correct':'Incorrect')+(ok?'':' | Correct answer: '+'ABCD'[q.correct]+'. '+q.opts[q.correct].zh));}else{written.push($('written'+i).value.trim());}});
+const form=document.createElement('form');form.method='POST';form.action=DATA.googleForm.action;form.target='hiddenSubmitFrame';form.style.display='none';const e=DATA.googleForm.entries;const fields={[e.studentName]:name,[e.studentClass]:cls,[e.bookName]:DATA.title,[e.completed]:fullReading()?'Yes':'No',[e.score]:correct+'/'+DATA.questions.filter(q=>q.opts).length,[e.mcq]:lines.join('\n\n'),[e.question9]:written[0]||'',[e.question10]:written[1]||''};for(const [key,value] of Object.entries(fields)){const inp=document.createElement('input');inp.type='hidden';inp.name=key;inp.value=value;form.append(inp);}document.body.append(form);form.submit();form.remove();completed=true;$('submit').disabled=true;$('status').textContent='已提交请求 Submission sent. 老师会检查答案。';}
+$('prev').onclick=()=>{stopWholeBook();if(current>0){current--;displaySlide();}};$('next').onclick=()=>{stopWholeBook();if(current<DATA.slides.length-1){current++;displaySlide();}};$('tabStory').onclick=()=>setView('story');$('tabQuiz').onclick=()=>setView('quiz');$('tabVocab').onclick=()=>setView('vocab');$('tabMind').onclick=()=>setView('mind');$('vocabToggle').onclick=()=>toggle('vocabToggle','hideVocab');$('grammarToggle').onclick=()=>toggle('grammarToggle','hideGrammar');$('pyToggle').onclick=()=>toggle('pyToggle','hidePy');$('enToggle').onclick=()=>toggle('enToggle','hideEn');$('slow').onclick=()=>toggle('slow','slowState');$('readPage').onclick=()=>{stopWholeBook();speak(DATA.lessonText[current]||DATA.title);};$('submit').onclick=submitQuiz;drawQuiz();drawVocabulary();drawMindMap();displaySlide();document.body.classList.add('hideEn');
+
+// Numbered picture tabs matching the Circle reader navigation.
+(function(){
+ const bar=document.createElement('nav');bar.className='page-rail';bar.setAttribute('aria-label','故事页面 Story pages');
+ const reader=document.getElementById('readerPanel');reader.parentNode.insertBefore(bar,reader);
+ for(let i=0;i<DATA.slides.length;i++){
+   const b=document.createElement('button');b.className='page-dot';b.type='button';b.textContent=String(i+1);b.setAttribute('aria-label','第 '+(i+1)+' 页');
+   b.onclick=()=>{stopWholeBook();current=i;displaySlide();updatePageDots();};bar.append(b);
+ }
+ function updatePageDots(){bar.querySelectorAll('button').forEach((b,i)=>{b.classList.toggle('active',i===current);b.setAttribute('aria-current',i===current?'page':'false');});}
+ document.getElementById('prev').addEventListener('click',updatePageDots);
+ document.getElementById('next').addEventListener('click',updatePageDots);
+ document.getElementById('tabStory').addEventListener('click',()=>{bar.classList.remove('hidden');document.body.classList.remove('circle-like-quiz');updatePageDots();});
+ document.getElementById('tabQuiz').addEventListener('click',()=>{bar.classList.add('hidden');document.body.classList.add('circle-like-quiz');});
+ document.getElementById('tabMind').addEventListener('click',()=>{bar.classList.add('hidden');document.body.classList.add('circle-like-quiz');});
+ document.getElementById('tabVocab').addEventListener('click',()=>{bar.classList.add('hidden');document.body.classList.add('circle-like-quiz');});
+ updatePageDots();
+})();
+
+// Whole-book player: read each page in order, with sentence highlighting and stop control.
+let bookSession=0, bookIsPlaying=false, activeBookUtterance=null;
+function stopWholeBook(){
+  bookSession++;bookIsPlaying=false;activeBookUtterance=null;
+  if('speechSynthesis' in window && (window.speechSynthesis.speaking || window.speechSynthesis.pending))window.speechSynthesis.cancel();
+  const b=document.getElementById('readWholeBook');
+  if(b){b.textContent='▶ Read Whole Book';b.classList.remove('on');b.setAttribute('aria-pressed','false');}
+  document.getElementById('readerLine').classList.remove('sentence-active');
+}
+function startWholeBook(){
+ if(bookIsPlaying){stopWholeBook();return;}
+ if(!('speechSynthesis' in window)){alert('Audio is not available in this browser.');return;}
+ const wasSpeaking=window.speechSynthesis.speaking||window.speechSynthesis.pending;
+ stopWholeBook();
+ bookIsPlaying=true;
+ const id=bookSession;
+ const b=document.getElementById('readWholeBook');b.textContent='■ Stop Whole Book';b.classList.add('on');b.setAttribute('aria-pressed','true');
+ current=0;
+ function nextPage(i){
+  if(id!==bookSession||!bookIsPlaying||quizVisible)return;
+  if(i>=DATA.slides.length){stopWholeBook();return;}
+  current=i;displaySlide(false);
+  document.querySelectorAll('.page-rail .page-dot').forEach((x,j)=>{x.classList.toggle('active',j===i);x.setAttribute('aria-current',j===i?'page':'false');});
+  const line=document.getElementById('readerLine');line.classList.add('sentence-active');
+  const utterance=new SpeechSynthesisUtterance(DATA.lessonText[i]||DATA.title);
+  activeBookUtterance=utterance;utterance.lang='zh-CN';const voices=window.speechSynthesis.getVoices();const mandarin=voices.find(v=>/^zh[-_]CN$/i.test(v.lang))||voices.find(v=>/^zh/i.test(v.lang)&&!/HK/i.test(v.lang));if(mandarin)utterance.voice=mandarin;utterance.rate=document.getElementById('slow').classList.contains('on')?0.7:1;
+  utterance.onend=()=>{if(id!==bookSession)return;activeBookUtterance=null;visitedPages.add(i);updateReadingProgress();line.classList.remove('sentence-active');setTimeout(()=>nextPage(i+1),250);};
+  utterance.onerror=e=>{if(id!==bookSession)return;stopWholeBook();alert('Whole-book audio stopped ('+e.error+'). Please try again or check your browser’s Mandarin voice settings.');};
+  window.speechSynthesis.resume();window.speechSynthesis.speak(utterance);
+ }
+ if(wasSpeaking)setTimeout(()=>nextPage(0),250);else nextPage(0);
+}
+document.getElementById('readWholeBook').addEventListener('click',startWholeBook);
+window.addEventListener('pagehide',stopWholeBook);
+}
+initStorybook().catch(error=>{
+ console.error(error);
+ const message=document.createElement('p');
+ message.setAttribute('role','alert');
+ message.style.cssText='padding:20px;color:#a22';
+ message.textContent='Unable to load storybook.json. Keep both files together and open the page through GitHub Pages or a local web server.';
+ document.querySelector('main').prepend(message);
+});
+</script><script>document.getElementById("instructionsToggle").addEventListener("click",function(){const show=this.closest("header").classList.toggle("show-instructions");this.setAttribute("aria-pressed",String(show));this.classList.toggle("on",show);this.textContent=show?"Hide Instructions":"Show Instructions";});</script></body></html>
