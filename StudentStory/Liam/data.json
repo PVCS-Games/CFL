@@ -1,0 +1,622 @@
+{
+  "schemaVersion": 1,
+  "title": "乐高 · LEGO",
+  "mode": "shortParagraph",
+  "author": "Liam",
+  "sections": [
+    {
+      "title": "全文",
+      "pinyin": "quán wén",
+      "englishTitle": "Full Story",
+      "paragraph": [
+        {
+          "c": "第一章",
+          "p": "dì yī zhāng"
+        }
+      ],
+      "paragraphs": [
+        [
+          {
+            "c": "第一章",
+            "p": "dì yī zhāng"
+          }
+        ],
+        [
+          {
+            "c": "我最喜欢",
+            "p": "wǒ zuì xǐ huan"
+          },
+          {
+            "c": "玩",
+            "p": "wán"
+          },
+          {
+            "c": "乐高",
+            "p": "lè gāo",
+            "d": "v:LEGO"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "乐高",
+            "p": "lè gāo",
+            "d": "v:LEGO"
+          },
+          {
+            "c": "积木",
+            "p": "jī mù",
+            "d": "v:building blocks"
+          },
+          {
+            "c": "有",
+            "p": "yǒu"
+          },
+          {
+            "c": "不同",
+            "p": "bù tóng"
+          },
+          {
+            "c": "的",
+            "p": "de"
+          },
+          {
+            "c": "颜色",
+            "p": "yán sè",
+            "d": "v:color"
+          },
+          {
+            "c": "、"
+          },
+          {
+            "c": "形状",
+            "p": "xíng zhuàng",
+            "d": "v:shape"
+          },
+          {
+            "c": "和",
+            "p": "hé"
+          },
+          {
+            "c": "大小",
+            "p": "dà xiǎo",
+            "d": "v:size"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "我最喜欢",
+            "p": "wǒ zuì xǐ huan"
+          },
+          {
+            "c": "正方形",
+            "p": "zhèng fāng xíng",
+            "d": "v:square"
+          },
+          {
+            "c": "、"
+          },
+          {
+            "c": "长方形",
+            "p": "cháng fāng xíng",
+            "d": "v:rectangle"
+          },
+          {
+            "c": "和",
+            "p": "hé"
+          },
+          {
+            "c": "三角形",
+            "p": "sān jiǎo xíng",
+            "d": "v:triangle"
+          },
+          {
+            "c": "的",
+            "p": "de"
+          },
+          {
+            "c": "积木",
+            "p": "jī mù",
+            "d": "v:building blocks"
+          },
+          {
+            "c": "。"
+          }
+        ],
+        [
+          {
+            "c": "咔",
+            "p": "kā"
+          },
+          {
+            "c": "哒",
+            "p": "dā"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "把",
+            "p": "bǎ"
+          },
+          {
+            "c": "两块",
+            "p": "liǎng kuài"
+          },
+          {
+            "c": "积木",
+            "p": "jī mù",
+            "d": "v:building blocks"
+          },
+          {
+            "c": "按",
+            "p": "àn"
+          },
+          {
+            "c": "在一起",
+            "p": "zài yì qǐ"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "就",
+            "p": "jiù"
+          },
+          {
+            "c": "拼好了",
+            "p": "pīn hǎo le"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "很酷",
+            "p": "hěn kù"
+          },
+          {
+            "c": "呀",
+            "p": "yā"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "我照着",
+            "p": "wǒ zhào zhe"
+          },
+          {
+            "c": "说明书",
+            "p": "shuō míng shū",
+            "d": "v:instructions"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "用",
+            "p": "yòng"
+          },
+          {
+            "c": "积木",
+            "p": "jī mù",
+            "d": "v:building blocks"
+          },
+          {
+            "c": "拼",
+            "p": "pīn"
+          },
+          {
+            "c": "汽车",
+            "p": "qì chē",
+            "d": "v:car"
+          },
+          {
+            "c": "、"
+          },
+          {
+            "c": "花",
+            "p": "huā"
+          },
+          {
+            "c": "和",
+            "p": "hé"
+          },
+          {
+            "c": "小动物",
+            "p": "xiǎo dòng wù",
+            "d": "v:small animals"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "小",
+            "p": "xiǎo"
+          },
+          {
+            "c": "小",
+            "p": "xiǎo"
+          },
+          {
+            "c": "的",
+            "p": "de"
+          },
+          {
+            "c": "积木",
+            "p": "jī mù",
+            "d": "v:building blocks"
+          },
+          {
+            "c": "在",
+            "p": "zài"
+          },
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "手里",
+            "p": "shǒu lǐ"
+          },
+          {
+            "c": "变魔术",
+            "p": "biàn mó shù",
+            "d": "v:perform magic"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "如果",
+            "p": "rú guǒ"
+          },
+          {
+            "c": "积木",
+            "p": "jī mù",
+            "d": "v:building blocks"
+          },
+          {
+            "c": "散了",
+            "p": "sàn le",
+            "d": "v:fell apart"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "就",
+            "p": "jiù"
+          },
+          {
+            "c": "再",
+            "p": "zài"
+          },
+          {
+            "c": "拼",
+            "p": "pīn"
+          },
+          {
+            "c": "一次",
+            "p": "yí cì"
+          },
+          {
+            "c": "。"
+          }
+        ],
+        [
+          {
+            "c": "第二章",
+            "p": "dì èr zhāng"
+          }
+        ],
+        [
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "也",
+            "p": "yě"
+          },
+          {
+            "c": "喜欢",
+            "p": "xǐ huan"
+          },
+          {
+            "c": "玩",
+            "p": "wán"
+          },
+          {
+            "c": "乐高",
+            "p": "lè gāo",
+            "d": "v:LEGO"
+          },
+          {
+            "c": "游",
+            "p": "yóu"
+          },
+          {
+            "c": "戏",
+            "p": "xì"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "我最喜欢",
+            "p": "wǒ zuì xǐ huan"
+          },
+          {
+            "c": "《"
+          },
+          {
+            "c": "乐高城市",
+            "p": "lè gāo chéng shì",
+            "d": "v:LEGO City"
+          },
+          {
+            "c": "》"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "因为",
+            "p": "yīn wèi"
+          },
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "可以",
+            "p": "kě yǐ"
+          },
+          {
+            "c": "在",
+            "p": "zài"
+          },
+          {
+            "c": "积木",
+            "p": "jī mù",
+            "d": "v:building blocks"
+          },
+          {
+            "c": "小城里",
+            "p": "xiǎo chéng lǐ"
+          },
+          {
+            "c": "探险",
+            "p": "tàn xiǎn",
+            "d": "v:explore"
+          },
+          {
+            "c": "！"
+          }
+        ]
+      ],
+      "translation": "Chapter 1",
+      "translations": [
+        "Chapter 1",
+        "I love playing with LEGO! My bricks come in lots of colors, shapes, and sizes. My favorite shapes are squares, rectangles, and triangles.",
+        "Click! I push two bricks together. So cool! I follow the pictures to build cars, flowers, and little animals. It feels like magic! If my LEGO falls apart, I can build it again.",
+        "Chapter 2",
+        "I like LEGO games, too. My favorite is LEGO City. I get to explore a whole city made of bricks!"
+      ],
+      "mindMap": {
+        "images": [],
+        "branches": [
+          {
+            "label": "喜欢什么？ / Favorites",
+            "items": [
+              {
+                "cn": "喜欢玩乐高",
+                "py": "xǐ huan wán lè gāo",
+                "en": "loves playing LEGO"
+              },
+              {
+                "cn": "喜欢正方形、长方形和三角形",
+                "py": "xǐ huan zhèng fāng xíng 、 cháng fāng xíng hé sān jiǎo xíng",
+                "en": "likes squares, rectangles, and triangles"
+              }
+            ]
+          },
+          {
+            "label": "怎么拼？ / Building",
+            "items": [
+              {
+                "cn": "把积木按在一起",
+                "py": "bǎ jī mù àn zài yì qǐ",
+                "en": "presses bricks together"
+              },
+              {
+                "cn": "照着说明书拼",
+                "py": "zhào zhe shuō míng shū pīn",
+                "en": "builds using instructions"
+              }
+            ]
+          },
+          {
+            "label": "拼什么？ / Creations",
+            "items": [
+              {
+                "cn": "拼汽车、花和小动物",
+                "py": "pīn qì chē 、 huā hé xiǎo dòng wù",
+                "en": "builds cars, flowers, and animals"
+              },
+              {
+                "cn": "散了就再拼一次",
+                "py": "sàn le jiù zài pīn yí cì",
+                "en": "rebuilds if it falls apart"
+              }
+            ]
+          },
+          {
+            "label": "游戏 / Game",
+            "items": [
+              {
+                "cn": "喜欢乐高城市",
+                "py": "xǐ huan lè gāo chéng shì",
+                "en": "likes LEGO City"
+              },
+              {
+                "cn": "在积木小城里探险",
+                "py": "zài jī mù xiǎo chéng lǐ tàn xiǎn",
+                "en": "explores a LEGO city"
+              }
+            ]
+          }
+        ]
+      },
+      "vocabulary": [
+        {
+          "cn": "乐高",
+          "py": "lè gāo",
+          "en": "LEGO",
+          "img": null
+        },
+        {
+          "cn": "积木",
+          "py": "jī mù",
+          "en": "building blocks",
+          "img": null
+        },
+        {
+          "cn": "颜色",
+          "py": "yán sè",
+          "en": "color",
+          "img": null
+        },
+        {
+          "cn": "形状",
+          "py": "xíng zhuàng",
+          "en": "shape",
+          "img": null
+        },
+        {
+          "cn": "大小",
+          "py": "dà xiǎo",
+          "en": "size",
+          "img": null
+        },
+        {
+          "cn": "正方形",
+          "py": "zhèng fāng xíng",
+          "en": "square",
+          "img": null
+        },
+        {
+          "cn": "长方形",
+          "py": "cháng fāng xíng",
+          "en": "rectangle",
+          "img": null
+        },
+        {
+          "cn": "三角形",
+          "py": "sān jiǎo xíng",
+          "en": "triangle",
+          "img": null
+        },
+        {
+          "cn": "说明书",
+          "py": "shuō míng shū",
+          "en": "instructions",
+          "img": null
+        },
+        {
+          "cn": "汽车",
+          "py": "qì chē",
+          "en": "car",
+          "img": null
+        },
+        {
+          "cn": "小动物",
+          "py": "xiǎo dòng wù",
+          "en": "small animals",
+          "img": null
+        },
+        {
+          "cn": "变魔术",
+          "py": "biàn mó shù",
+          "en": "perform magic",
+          "img": null
+        },
+        {
+          "cn": "散了",
+          "py": "sàn le",
+          "en": "fell apart",
+          "img": null
+        },
+        {
+          "cn": "探险",
+          "py": "tàn xiǎn",
+          "en": "explore",
+          "img": null
+        },
+        {
+          "cn": "乐高城市",
+          "py": "lè gāo chéng shì",
+          "en": "LEGO City",
+          "img": null
+        }
+      ]
+    }
+  ],
+  "mindMapLanguage": {
+    "喜欢什么？ / Favorites": [
+      "",
+      "Favorites"
+    ],
+    "喜欢玩乐高": [
+      "xǐ huan wán lè gāo",
+      "loves playing LEGO"
+    ],
+    "喜欢正方形、长方形和三角形": [
+      "xǐ huan zhèng fāng xíng 、 cháng fāng xíng hé sān jiǎo xíng",
+      "likes squares, rectangles, and triangles"
+    ],
+    "怎么拼？ / Building": [
+      "",
+      "Building"
+    ],
+    "把积木按在一起": [
+      "bǎ jī mù àn zài yì qǐ",
+      "presses bricks together"
+    ],
+    "照着说明书拼": [
+      "zhào zhe shuō míng shū pīn",
+      "builds using instructions"
+    ],
+    "拼什么？ / Creations": [
+      "",
+      "Creations"
+    ],
+    "拼汽车、花和小动物": [
+      "pīn qì chē 、 huā hé xiǎo dòng wù",
+      "builds cars, flowers, and animals"
+    ],
+    "散了就再拼一次": [
+      "sàn le jiù zài pīn yí cì",
+      "rebuilds if it falls apart"
+    ],
+    "游戏 / Game": [
+      "",
+      "Game"
+    ],
+    "喜欢乐高城市": [
+      "xǐ huan lè gāo chéng shì",
+      "likes LEGO City"
+    ],
+    "在积木小城里探险": [
+      "zài jī mù xiǎo chéng lǐ tàn xiǎn",
+      "explores a LEGO city"
+    ]
+  },
+  "overview": null
+}
