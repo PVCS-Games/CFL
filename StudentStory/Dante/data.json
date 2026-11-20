@@ -1,0 +1,1270 @@
+{
+  "schemaVersion": 1,
+  "title": "丹特去看高楼",
+  "mode": "shortParagraph",
+  "author": "Dante",
+  "sections": [
+    {
+      "title": "全文",
+      "pinyin": "quán wén",
+      "englishTitle": "Full Story",
+      "paragraph": [
+        {
+          "c": "丹",
+          "p": "dān"
+        },
+        {
+          "c": "特",
+          "p": "tè"
+        },
+        {
+          "c": "喜欢高楼",
+          "p": "xǐ huan gāo lóu"
+        },
+        {
+          "c": "。"
+        },
+        {
+          "c": "“"
+        },
+        {
+          "c": "哇",
+          "p": "wā"
+        },
+        {
+          "c": "！"
+        },
+        {
+          "c": "好",
+          "p": "hǎo"
+        },
+        {
+          "c": "高",
+          "p": "gāo"
+        },
+        {
+          "c": "呀",
+          "p": "yā"
+        },
+        {
+          "c": "！"
+        },
+        {
+          "c": "”"
+        },
+        {
+          "c": "他",
+          "p": "tā"
+        },
+        {
+          "c": "拿出",
+          "p": "ná chū"
+        },
+        {
+          "c": "地图",
+          "p": "dì tú",
+          "d": "v:map"
+        },
+        {
+          "c": "："
+        },
+        {
+          "c": "“"
+        },
+        {
+          "c": "出发",
+          "p": "chū fā",
+          "d": "v:set off"
+        },
+        {
+          "c": "吧",
+          "p": "ba"
+        },
+        {
+          "c": "！"
+        },
+        {
+          "c": "”"
+        }
+      ],
+      "paragraphs": [
+        [
+          {
+            "c": "丹",
+            "p": "dān"
+          },
+          {
+            "c": "特",
+            "p": "tè"
+          },
+          {
+            "c": "喜欢高楼",
+            "p": "xǐ huan gāo lóu"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "“"
+          },
+          {
+            "c": "哇",
+            "p": "wā"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "好",
+            "p": "hǎo"
+          },
+          {
+            "c": "高",
+            "p": "gāo"
+          },
+          {
+            "c": "呀",
+            "p": "yā"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "”"
+          },
+          {
+            "c": "他",
+            "p": "tā"
+          },
+          {
+            "c": "拿出",
+            "p": "ná chū"
+          },
+          {
+            "c": "地图",
+            "p": "dì tú",
+            "d": "v:map"
+          },
+          {
+            "c": "："
+          },
+          {
+            "c": "“"
+          },
+          {
+            "c": "出发",
+            "p": "chū fā",
+            "d": "v:set off"
+          },
+          {
+            "c": "吧",
+            "p": "ba"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "”"
+          }
+        ],
+        [
+          {
+            "c": "2"
+          },
+          {
+            "c": "0"
+          },
+          {
+            "c": "2"
+          },
+          {
+            "c": "7"
+          },
+          {
+            "c": "年",
+            "p": "nián"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "他",
+            "p": "tā"
+          },
+          {
+            "c": "要",
+            "p": "yào"
+          },
+          {
+            "c": "去",
+            "p": "qù"
+          },
+          {
+            "c": "纽约",
+            "p": "niǔ yuē",
+            "d": "v:New York"
+          },
+          {
+            "c": "看",
+            "p": "kàn"
+          },
+          {
+            "c": " "
+          },
+          {
+            "c": "O"
+          },
+          {
+            "c": "n"
+          },
+          {
+            "c": "e"
+          },
+          {
+            "c": " "
+          },
+          {
+            "c": "W"
+          },
+          {
+            "c": "o"
+          },
+          {
+            "c": "r"
+          },
+          {
+            "c": "l"
+          },
+          {
+            "c": "d"
+          },
+          {
+            "c": " "
+          },
+          {
+            "c": "T"
+          },
+          {
+            "c": "r"
+          },
+          {
+            "c": "a"
+          },
+          {
+            "c": "d"
+          },
+          {
+            "c": "e"
+          },
+          {
+            "c": " "
+          },
+          {
+            "c": "C"
+          },
+          {
+            "c": "e"
+          },
+          {
+            "c": "n"
+          },
+          {
+            "c": "t"
+          },
+          {
+            "c": "e"
+          },
+          {
+            "c": "r"
+          },
+          {
+            "c": "（"
+          },
+          {
+            "c": "世界贸易中心一号楼",
+            "p": "shì jiè mào yì zhōng xīn yī hào lóu",
+            "d": "v:One World Trade Center"
+          },
+          {
+            "c": "）"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "它",
+            "p": "tā"
+          },
+          {
+            "c": "像",
+            "p": "xiàng"
+          },
+          {
+            "c": "一支",
+            "p": "yì zhī"
+          },
+          {
+            "c": "大",
+            "p": "dà"
+          },
+          {
+            "c": "铅",
+            "p": "qiān"
+          },
+          {
+            "c": "笔",
+            "p": "bǐ"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "他",
+            "p": "tā"
+          },
+          {
+            "c": "还",
+            "p": "hái"
+          },
+          {
+            "c": "要",
+            "p": "yào"
+          },
+          {
+            "c": "看",
+            "p": "kàn"
+          },
+          {
+            "c": " "
+          },
+          {
+            "c": "J"
+          },
+          {
+            "c": "P"
+          },
+          {
+            "c": "M"
+          },
+          {
+            "c": "o"
+          },
+          {
+            "c": "r"
+          },
+          {
+            "c": "g"
+          },
+          {
+            "c": "a"
+          },
+          {
+            "c": "n"
+          },
+          {
+            "c": " "
+          },
+          {
+            "c": "C"
+          },
+          {
+            "c": "h"
+          },
+          {
+            "c": "a"
+          },
+          {
+            "c": "s"
+          },
+          {
+            "c": "e"
+          },
+          {
+            "c": " "
+          },
+          {
+            "c": "H"
+          },
+          {
+            "c": "e"
+          },
+          {
+            "c": "a"
+          },
+          {
+            "c": "d"
+          },
+          {
+            "c": "q"
+          },
+          {
+            "c": "u"
+          },
+          {
+            "c": "a"
+          },
+          {
+            "c": "r"
+          },
+          {
+            "c": "t"
+          },
+          {
+            "c": "e"
+          },
+          {
+            "c": "r"
+          },
+          {
+            "c": "s"
+          },
+          {
+            "c": "（"
+          },
+          {
+            "c": "摩根大通总部大楼",
+            "p": "mó gēn dà tōng zǒng bù dà lóu",
+            "d": "v:JPMorgan Chase Headquarters"
+          },
+          {
+            "c": "）"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "它",
+            "p": "tā"
+          },
+          {
+            "c": "像",
+            "p": "xiàng"
+          },
+          {
+            "c": "积木",
+            "p": "jī mù"
+          },
+          {
+            "c": "！"
+          }
+        ],
+        [
+          {
+            "c": "2"
+          },
+          {
+            "c": "0"
+          },
+          {
+            "c": "2"
+          },
+          {
+            "c": "8"
+          },
+          {
+            "c": "年",
+            "p": "nián"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "他",
+            "p": "tā"
+          },
+          {
+            "c": "要",
+            "p": "yào"
+          },
+          {
+            "c": "去",
+            "p": "qù"
+          },
+          {
+            "c": "上海",
+            "p": "shàng hǎi",
+            "d": "v:Shanghai"
+          },
+          {
+            "c": "看",
+            "p": "kàn"
+          },
+          {
+            "c": " "
+          },
+          {
+            "c": "S"
+          },
+          {
+            "c": "h"
+          },
+          {
+            "c": "a"
+          },
+          {
+            "c": "n"
+          },
+          {
+            "c": "g"
+          },
+          {
+            "c": "h"
+          },
+          {
+            "c": "a"
+          },
+          {
+            "c": "i"
+          },
+          {
+            "c": " "
+          },
+          {
+            "c": "T"
+          },
+          {
+            "c": "o"
+          },
+          {
+            "c": "w"
+          },
+          {
+            "c": "e"
+          },
+          {
+            "c": "r"
+          },
+          {
+            "c": "（"
+          },
+          {
+            "c": "上海中心大厦",
+            "p": "shàng hǎi zhōng xīn dà shà",
+            "d": "v:Shanghai Tower"
+          },
+          {
+            "c": "）"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "它",
+            "p": "tā"
+          },
+          {
+            "c": "扭扭的",
+            "p": "niǔ niǔ de"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "像",
+            "p": "xiàng"
+          },
+          {
+            "c": "冰淇淋",
+            "p": "bīng qí lín",
+            "d": "v:ice cream"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "他",
+            "p": "tā"
+          },
+          {
+            "c": "还",
+            "p": "hái"
+          },
+          {
+            "c": "要",
+            "p": "yào"
+          },
+          {
+            "c": "看",
+            "p": "kàn"
+          },
+          {
+            "c": " "
+          },
+          {
+            "c": "J"
+          },
+          {
+            "c": "i"
+          },
+          {
+            "c": "n"
+          },
+          {
+            "c": " "
+          },
+          {
+            "c": "M"
+          },
+          {
+            "c": "a"
+          },
+          {
+            "c": "o"
+          },
+          {
+            "c": " "
+          },
+          {
+            "c": "T"
+          },
+          {
+            "c": "o"
+          },
+          {
+            "c": "w"
+          },
+          {
+            "c": "e"
+          },
+          {
+            "c": "r"
+          },
+          {
+            "c": "（"
+          },
+          {
+            "c": "金茂大厦",
+            "p": "jīn mào dà shà",
+            "d": "v:Jin Mao Tower"
+          },
+          {
+            "c": "）"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "它",
+            "p": "tā"
+          },
+          {
+            "c": "下面",
+            "p": "xià miàn"
+          },
+          {
+            "c": "大",
+            "p": "dà"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "上面",
+            "p": "shàng miàn"
+          },
+          {
+            "c": "小",
+            "p": "xiǎo"
+          },
+          {
+            "c": "！"
+          }
+        ],
+        [
+          {
+            "c": "2"
+          },
+          {
+            "c": "0"
+          },
+          {
+            "c": "2"
+          },
+          {
+            "c": "9"
+          },
+          {
+            "c": "年",
+            "p": "nián"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "他",
+            "p": "tā"
+          },
+          {
+            "c": "要",
+            "p": "yào"
+          },
+          {
+            "c": "去",
+            "p": "qù"
+          },
+          {
+            "c": "迪拜",
+            "p": "dí bài",
+            "d": "v:Dubai"
+          },
+          {
+            "c": "看",
+            "p": "kàn"
+          },
+          {
+            "c": " "
+          },
+          {
+            "c": "B"
+          },
+          {
+            "c": "u"
+          },
+          {
+            "c": "r"
+          },
+          {
+            "c": "j"
+          },
+          {
+            "c": " "
+          },
+          {
+            "c": "K"
+          },
+          {
+            "c": "h"
+          },
+          {
+            "c": "a"
+          },
+          {
+            "c": "l"
+          },
+          {
+            "c": "i"
+          },
+          {
+            "c": "f"
+          },
+          {
+            "c": "a"
+          },
+          {
+            "c": "（"
+          },
+          {
+            "c": "哈利法塔",
+            "p": "hā lì fǎ tǎ",
+            "d": "v:Burj Khalifa"
+          },
+          {
+            "c": "）"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "它",
+            "p": "tā"
+          },
+          {
+            "c": "又",
+            "p": "yòu"
+          },
+          {
+            "c": "高",
+            "p": "gāo"
+          },
+          {
+            "c": "又",
+            "p": "yòu"
+          },
+          {
+            "c": "细",
+            "p": "xì"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "好像",
+            "p": "hǎo xiàng"
+          },
+          {
+            "c": "要",
+            "p": "yào"
+          },
+          {
+            "c": "碰",
+            "p": "pèng"
+          },
+          {
+            "c": "到",
+            "p": "dào"
+          },
+          {
+            "c": "云",
+            "p": "yún"
+          },
+          {
+            "c": "！"
+          }
+        ],
+        [
+          {
+            "c": "2"
+          },
+          {
+            "c": "0"
+          },
+          {
+            "c": "3"
+          },
+          {
+            "c": "0"
+          },
+          {
+            "c": "年",
+            "p": "nián"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "他",
+            "p": "tā"
+          },
+          {
+            "c": "要",
+            "p": "yào"
+          },
+          {
+            "c": "去",
+            "p": "qù"
+          },
+          {
+            "c": "马来西亚",
+            "p": "mǎ lái xī yà",
+            "d": "v:Malaysia"
+          },
+          {
+            "c": "看",
+            "p": "kàn"
+          },
+          {
+            "c": " "
+          },
+          {
+            "c": "P"
+          },
+          {
+            "c": "e"
+          },
+          {
+            "c": "t"
+          },
+          {
+            "c": "r"
+          },
+          {
+            "c": "o"
+          },
+          {
+            "c": "n"
+          },
+          {
+            "c": "a"
+          },
+          {
+            "c": "s"
+          },
+          {
+            "c": " "
+          },
+          {
+            "c": "T"
+          },
+          {
+            "c": "w"
+          },
+          {
+            "c": "i"
+          },
+          {
+            "c": "n"
+          },
+          {
+            "c": " "
+          },
+          {
+            "c": "T"
+          },
+          {
+            "c": "o"
+          },
+          {
+            "c": "w"
+          },
+          {
+            "c": "e"
+          },
+          {
+            "c": "r"
+          },
+          {
+            "c": "s"
+          },
+          {
+            "c": "（"
+          },
+          {
+            "c": "双子塔",
+            "p": "shuāng zǐ tǎ",
+            "d": "v:twin towers"
+          },
+          {
+            "c": "）"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "两",
+            "p": "liǎng"
+          },
+          {
+            "c": "座",
+            "p": "zuò"
+          },
+          {
+            "c": "楼",
+            "p": "lóu"
+          },
+          {
+            "c": "像",
+            "p": "xiàng"
+          },
+          {
+            "c": "双胞胎",
+            "p": "shuāng bāo tāi",
+            "d": "v:twins"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "中间",
+            "p": "zhōng jiān"
+          },
+          {
+            "c": "的",
+            "p": "de"
+          },
+          {
+            "c": "小",
+            "p": "xiǎo"
+          },
+          {
+            "c": "桥",
+            "p": "qiáo"
+          },
+          {
+            "c": "像",
+            "p": "xiàng"
+          },
+          {
+            "c": "让",
+            "p": "ràng"
+          },
+          {
+            "c": "它",
+            "p": "tā"
+          },
+          {
+            "c": "们",
+            "p": "men"
+          },
+          {
+            "c": "拉着手",
+            "p": "lā zhe shǒu"
+          },
+          {
+            "c": "！"
+          }
+        ],
+        [
+          {
+            "c": "丹",
+            "p": "dān"
+          },
+          {
+            "c": "特",
+            "p": "tè"
+          },
+          {
+            "c": "笑着",
+            "p": "xiào zhe"
+          },
+          {
+            "c": "说",
+            "p": "shuō"
+          },
+          {
+            "c": "："
+          },
+          {
+            "c": "“"
+          },
+          {
+            "c": "看",
+            "p": "kàn"
+          },
+          {
+            "c": "高楼",
+            "p": "gāo lóu",
+            "d": "v:tall building"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "真",
+            "p": "zhēn"
+          },
+          {
+            "c": "好",
+            "p": "hǎo"
+          },
+          {
+            "c": "玩",
+            "p": "wán"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "”"
+          }
+        ]
+      ],
+      "translation": "Dante loves tall buildings. “Wow! So tall!” He takes out his map. “Let’s go!”",
+      "translations": [
+        "Dante loves tall buildings. “Wow! So tall!” He takes out his map. “Let’s go!”",
+        "In 2027, he will go to New York to see One World Trade Center. It looks like a big pencil! He will also see the JPMorgan Chase Headquarters. It looks like stacked blocks!",
+        "In 2028, he will go to Shanghai to see Shanghai Tower. It looks like swirly ice cream! He will also see Jin Mao Tower. It is big at the bottom and small at the top!",
+        "In 2029, he will go to Dubai to see the Burj Khalifa. It is tall and thin. It almost touches the clouds!",
+        "In 2030, he will go to Malaysia to see the Petronas Twin Towers. They look like twins holding hands with a little bridge!",
+        "Dante smiles. “Tall buildings are fun!”"
+      ],
+      "mindMap": {
+        "images": [],
+        "branches": [
+          {
+            "label": "2027 · 纽约 / New York",
+            "items": [
+              {
+                "cn": "世界贸易中心一号楼",
+                "py": "shì jiè mào yì zhōng xīn yī hào lóu",
+                "en": "One World Trade Center"
+              },
+              {
+                "cn": "摩根大通总部大楼",
+                "py": "mó gēn dà tōng zǒng bù dà lóu",
+                "en": "JPMorgan Chase Headquarters"
+              }
+            ]
+          },
+          {
+            "label": "2028 · 上海 / Shanghai",
+            "items": [
+              {
+                "cn": "上海中心大厦",
+                "py": "shàng hǎi zhōng xīn dà shà",
+                "en": "Shanghai Tower"
+              },
+              {
+                "cn": "金茂大厦",
+                "py": "jīn mào dà shà",
+                "en": "Jin Mao Tower"
+              }
+            ]
+          },
+          {
+            "label": "2029 · 迪拜 / Dubai",
+            "items": [
+              {
+                "cn": "哈利法塔",
+                "py": "hā lì fǎ tǎ",
+                "en": "Burj Khalifa"
+              },
+              {
+                "cn": "又高又细",
+                "py": "yòu gāo yòu xì",
+                "en": "tall and thin"
+              }
+            ]
+          },
+          {
+            "label": "2030 · 马来西亚 / Malaysia",
+            "items": [
+              {
+                "cn": "双子塔",
+                "py": "shuāng zǐ tǎ",
+                "en": "Petronas Twin Towers"
+              },
+              {
+                "cn": "小桥像拉着手",
+                "py": "xiǎo qiáo xiàng lā zhe shǒu",
+                "en": "bridge looks like holding hands"
+              }
+            ]
+          }
+        ]
+      },
+      "vocabulary": [
+        {
+          "cn": "高楼",
+          "py": "gāo lóu",
+          "en": "tall building",
+          "img": null
+        },
+        {
+          "cn": "地图",
+          "py": "dì tú",
+          "en": "map",
+          "img": null
+        },
+        {
+          "cn": "出发",
+          "py": "chū fā",
+          "en": "set off",
+          "img": null
+        },
+        {
+          "cn": "纽约",
+          "py": "niǔ yuē",
+          "en": "New York",
+          "img": null
+        },
+        {
+          "cn": "世界贸易中心一号楼",
+          "py": "shì jiè mào yì zhōng xīn yī hào lóu",
+          "en": "One World Trade Center",
+          "img": null
+        },
+        {
+          "cn": "摩根大通总部大楼",
+          "py": "mó gēn dà tōng zǒng bù dà lóu",
+          "en": "JPMorgan Chase Headquarters",
+          "img": null
+        },
+        {
+          "cn": "上海",
+          "py": "shàng hǎi",
+          "en": "Shanghai",
+          "img": null
+        },
+        {
+          "cn": "上海中心大厦",
+          "py": "shàng hǎi zhōng xīn dà shà",
+          "en": "Shanghai Tower",
+          "img": null
+        },
+        {
+          "cn": "金茂大厦",
+          "py": "jīn mào dà shà",
+          "en": "Jin Mao Tower",
+          "img": null
+        },
+        {
+          "cn": "冰淇淋",
+          "py": "bīng qí lín",
+          "en": "ice cream",
+          "img": null
+        },
+        {
+          "cn": "迪拜",
+          "py": "dí bài",
+          "en": "Dubai",
+          "img": null
+        },
+        {
+          "cn": "哈利法塔",
+          "py": "hā lì fǎ tǎ",
+          "en": "Burj Khalifa",
+          "img": null
+        },
+        {
+          "cn": "马来西亚",
+          "py": "mǎ lái xī yà",
+          "en": "Malaysia",
+          "img": null
+        },
+        {
+          "cn": "双子塔",
+          "py": "shuāng zǐ tǎ",
+          "en": "twin towers",
+          "img": null
+        },
+        {
+          "cn": "双胞胎",
+          "py": "shuāng bāo tāi",
+          "en": "twins",
+          "img": null
+        }
+      ]
+    }
+  ],
+  "mindMapLanguage": {
+    "2027 · 纽约 / New York": [
+      "",
+      "New York"
+    ],
+    "世界贸易中心一号楼": [
+      "shì jiè mào yì zhōng xīn yī hào lóu",
+      "One World Trade Center"
+    ],
+    "摩根大通总部大楼": [
+      "mó gēn dà tōng zǒng bù dà lóu",
+      "JPMorgan Chase Headquarters"
+    ],
+    "2028 · 上海 / Shanghai": [
+      "",
+      "Shanghai"
+    ],
+    "上海中心大厦": [
+      "shàng hǎi zhōng xīn dà shà",
+      "Shanghai Tower"
+    ],
+    "金茂大厦": [
+      "jīn mào dà shà",
+      "Jin Mao Tower"
+    ],
+    "2029 · 迪拜 / Dubai": [
+      "",
+      "Dubai"
+    ],
+    "哈利法塔": [
+      "hā lì fǎ tǎ",
+      "Burj Khalifa"
+    ],
+    "又高又细": [
+      "yòu gāo yòu xì",
+      "tall and thin"
+    ],
+    "2030 · 马来西亚 / Malaysia": [
+      "",
+      "Malaysia"
+    ],
+    "双子塔": [
+      "shuāng zǐ tǎ",
+      "Petronas Twin Towers"
+    ],
+    "小桥像拉着手": [
+      "xiǎo qiáo xiàng lā zhe shǒu",
+      "bridge looks like holding hands"
+    ]
+  },
+  "overview": null
+}
