@@ -1,0 +1,826 @@
+{
+  "schemaVersion": 1,
+  "title": "神奇的山",
+  "mode": "shortParagraph",
+  "author": "Remy",
+  "sections": [
+    {
+      "title": "全文",
+      "pinyin": "quán wén",
+      "englishTitle": "Full Story",
+      "paragraph": [
+        {
+          "c": "从前",
+          "p": "cóng qián"
+        },
+        {
+          "c": "，"
+        },
+        {
+          "c": "有",
+          "p": "yǒu"
+        },
+        {
+          "c": "一座",
+          "p": "yí zuò"
+        },
+        {
+          "c": "神奇",
+          "p": "shén qí",
+          "d": "v:magical"
+        },
+        {
+          "c": "的",
+          "p": "de"
+        },
+        {
+          "c": "山",
+          "p": "shān"
+        },
+        {
+          "c": "。"
+        },
+        {
+          "c": "每年",
+          "p": "měi nián"
+        },
+        {
+          "c": "有一天",
+          "p": "yǒu yì tiān"
+        },
+        {
+          "c": "，"
+        },
+        {
+          "c": "你",
+          "p": "nǐ"
+        },
+        {
+          "c": "可以",
+          "p": "kě yǐ"
+        },
+        {
+          "c": "许一个愿",
+          "p": "xǔ yí ge yuàn"
+        },
+        {
+          "c": "，"
+        },
+        {
+          "c": "让",
+          "p": "ràng"
+        },
+        {
+          "c": "它",
+          "p": "tā"
+        },
+        {
+          "c": "成真",
+          "p": "chéng zhēn",
+          "d": "v:come true"
+        },
+        {
+          "c": "！"
+        }
+      ],
+      "paragraphs": [
+        [
+          {
+            "c": "从前",
+            "p": "cóng qián"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "有",
+            "p": "yǒu"
+          },
+          {
+            "c": "一座",
+            "p": "yí zuò"
+          },
+          {
+            "c": "神奇",
+            "p": "shén qí",
+            "d": "v:magical"
+          },
+          {
+            "c": "的",
+            "p": "de"
+          },
+          {
+            "c": "山",
+            "p": "shān"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "每年",
+            "p": "měi nián"
+          },
+          {
+            "c": "有一天",
+            "p": "yǒu yì tiān"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "你",
+            "p": "nǐ"
+          },
+          {
+            "c": "可以",
+            "p": "kě yǐ"
+          },
+          {
+            "c": "许一个愿",
+            "p": "xǔ yí ge yuàn"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "让",
+            "p": "ràng"
+          },
+          {
+            "c": "它",
+            "p": "tā"
+          },
+          {
+            "c": "成真",
+            "p": "chéng zhēn",
+            "d": "v:come true"
+          },
+          {
+            "c": "！"
+          }
+        ],
+        [
+          {
+            "c": "有一天",
+            "p": "yǒu yì tiān"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "一个",
+            "p": "yí ge"
+          },
+          {
+            "c": "贪心",
+            "p": "tān xīn",
+            "d": "v:greedy"
+          },
+          {
+            "c": "的",
+            "p": "de"
+          },
+          {
+            "c": "有钱人",
+            "p": "yǒu qián rén",
+            "d": "v:rich person"
+          },
+          {
+            "c": "说",
+            "p": "shuō"
+          },
+          {
+            "c": "："
+          },
+          {
+            "c": "“"
+          },
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "要",
+            "p": "yào"
+          },
+          {
+            "c": "宝石",
+            "p": "bǎo shí",
+            "d": "v:jewel"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "好",
+            "p": "hǎo"
+          },
+          {
+            "c": "多",
+            "p": "duō"
+          },
+          {
+            "c": "好",
+            "p": "hǎo"
+          },
+          {
+            "c": "多",
+            "p": "duō"
+          },
+          {
+            "c": "宝石",
+            "p": "bǎo shí",
+            "d": "v:jewel"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "”"
+          },
+          {
+            "c": "小英雄",
+            "p": "xiǎo yīng xióng",
+            "d": "v:young hero"
+          },
+          {
+            "c": "听",
+            "p": "tīng"
+          },
+          {
+            "c": "见",
+            "p": "jiàn"
+          },
+          {
+            "c": "了",
+            "p": "le"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "心想",
+            "p": "xīn xiǎng"
+          },
+          {
+            "c": "："
+          },
+          {
+            "c": "“"
+          },
+          {
+            "c": "哎呀",
+            "p": "āi yā"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "宝石",
+            "p": "bǎo shí",
+            "d": "v:jewel"
+          },
+          {
+            "c": "滚下来",
+            "p": "gǔn xià lái",
+            "d": "v:roll down"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "会",
+            "p": "huì"
+          },
+          {
+            "c": "撞到",
+            "p": "zhuàng dào",
+            "d": "v:hit"
+          },
+          {
+            "c": "我们",
+            "p": "wǒ men"
+          },
+          {
+            "c": "的",
+            "p": "de"
+          },
+          {
+            "c": "家",
+            "p": "jiā"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "”"
+          }
+        ],
+        [
+          {
+            "c": "怎么办呢",
+            "p": "zěn me bàn ne"
+          },
+          {
+            "c": "？"
+          },
+          {
+            "c": "小英雄",
+            "p": "xiǎo yīng xióng",
+            "d": "v:young hero"
+          },
+          {
+            "c": "想了又想",
+            "p": "xiǎng le yòu xiǎng"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "盖墙",
+            "p": "gài qiáng",
+            "d": "v:build a wall"
+          },
+          {
+            "c": "？"
+          },
+          {
+            "c": "大",
+            "p": "dà"
+          },
+          {
+            "c": "宝石",
+            "p": "bǎo shí",
+            "d": "v:jewel"
+          },
+          {
+            "c": "一撞",
+            "p": "yí zhuàng"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "墙",
+            "p": "qiáng"
+          },
+          {
+            "c": "就",
+            "p": "jiù"
+          },
+          {
+            "c": "倒",
+            "p": "dǎo"
+          },
+          {
+            "c": "了",
+            "p": "le"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "做",
+            "p": "zuò"
+          },
+          {
+            "c": "漏斗",
+            "p": "lòu dǒu",
+            "d": "v:funnel"
+          },
+          {
+            "c": "？"
+          },
+          {
+            "c": "太慢了",
+            "p": "tài màn le"
+          },
+          {
+            "c": "！"
+          }
+        ],
+        [
+          {
+            "c": "“"
+          },
+          {
+            "c": "有",
+            "p": "yǒu"
+          },
+          {
+            "c": "了",
+            "p": "le"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "”"
+          },
+          {
+            "c": "小英雄",
+            "p": "xiǎo yīng xióng",
+            "d": "v:young hero"
+          },
+          {
+            "c": "跑",
+            "p": "pǎo"
+          },
+          {
+            "c": "上",
+            "p": "shàng"
+          },
+          {
+            "c": "山",
+            "p": "shān"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "抢先",
+            "p": "qiǎng xiān",
+            "d": "v:go first"
+          },
+          {
+            "c": "许",
+            "p": "xǔ"
+          },
+          {
+            "c": "了",
+            "p": "le"
+          },
+          {
+            "c": "愿",
+            "p": "yuàn"
+          },
+          {
+            "c": "："
+          },
+          {
+            "c": "“"
+          },
+          {
+            "c": "请",
+            "p": "qǐng"
+          },
+          {
+            "c": "别",
+            "p": "bié"
+          },
+          {
+            "c": "让",
+            "p": "ràng"
+          },
+          {
+            "c": "宝石",
+            "p": "bǎo shí",
+            "d": "v:jewel"
+          },
+          {
+            "c": "掉",
+            "p": "diào"
+          },
+          {
+            "c": "下",
+            "p": "xià"
+          },
+          {
+            "c": "来",
+            "p": "lái"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "让大家",
+            "p": "ràng dà jiā"
+          },
+          {
+            "c": "都",
+            "p": "dōu"
+          },
+          {
+            "c": "平安",
+            "p": "píng ān",
+            "d": "v:safe and sound"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "”"
+          }
+        ],
+        [
+          {
+            "c": "一颗",
+            "p": "yì kē"
+          },
+          {
+            "c": "宝石",
+            "p": "bǎo shí",
+            "d": "v:jewel"
+          },
+          {
+            "c": "也",
+            "p": "yě"
+          },
+          {
+            "c": "没",
+            "p": "méi"
+          },
+          {
+            "c": "掉",
+            "p": "diào"
+          },
+          {
+            "c": "下",
+            "p": "xià"
+          },
+          {
+            "c": "来",
+            "p": "lái"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "小英雄",
+            "p": "xiǎo yīng xióng",
+            "d": "v:young hero"
+          },
+          {
+            "c": "笑",
+            "p": "xiào"
+          },
+          {
+            "c": "了",
+            "p": "le"
+          },
+          {
+            "c": "："
+          },
+          {
+            "c": "“"
+          },
+          {
+            "c": "宝石",
+            "p": "bǎo shí",
+            "d": "v:jewel"
+          },
+          {
+            "c": "再",
+            "p": "zài"
+          },
+          {
+            "c": "多",
+            "p": "duō"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "也",
+            "p": "yě"
+          },
+          {
+            "c": "比不上",
+            "p": "bǐ bu shàng",
+            "d": "v:cannot compare with"
+          },
+          {
+            "c": "大家",
+            "p": "dà jiā"
+          },
+          {
+            "c": "平平安安",
+            "p": "píng píng ān ān"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "”"
+          }
+        ]
+      ],
+      "translation": "Once upon a time, there was a magic mountain. One day each year, you could make one wish come true!",
+      "translations": [
+        "Once upon a time, there was a magic mountain. One day each year, you could make one wish come true!",
+        "One day, a rich, greedy man said, “I want jewels! Lots and lots of jewels!” A young hero heard him and thought, “Oh no! The jewels could roll down and hit our homes!”",
+        "What could he do? The hero thought and thought. Build a wall? Big jewels could knock it down! Make a funnel? That would take too long!",
+        "“I’ve got it!” The hero ran up the mountain and made his wish first. “Please don’t let the jewels fall. Keep everyone safe!”",
+        "Not a single jewel fell. The hero smiled. “Keeping everyone safe is worth more than all the jewels!”"
+      ],
+      "mindMap": {
+        "images": [],
+        "branches": [
+          {
+            "label": "神奇的地方 / Setting",
+            "items": [
+              {
+                "cn": "一座神奇的山",
+                "py": "yí zuò shén qí de shān",
+                "en": "a magic mountain"
+              },
+              {
+                "cn": "每年可以许一个愿",
+                "py": "měi nián kě yǐ xǔ yí ge yuàn",
+                "en": "one wish each year"
+              }
+            ]
+          },
+          {
+            "label": "危险 / Problem",
+            "items": [
+              {
+                "cn": "有钱人想要很多宝石",
+                "py": "yǒu qián rén xiǎng yào hěn duō bǎo shí",
+                "en": "rich man wanted lots of jewels"
+              },
+              {
+                "cn": "宝石会撞到家",
+                "py": "bǎo shí huì zhuàng dào jiā",
+                "en": "jewels could hit homes"
+              }
+            ]
+          },
+          {
+            "label": "办法 / Solution",
+            "items": [
+              {
+                "cn": "盖墙或做漏斗都不行",
+                "py": "gài qiáng huo zuò lòu dǒu dōu bù xing",
+                "en": "a wall or funnel would not work"
+              },
+              {
+                "cn": "小英雄抢先许愿",
+                "py": "xiǎo yīng xióng qiǎng xiān xǔ yuàn",
+                "en": "young hero made the wish first"
+              }
+            ]
+          },
+          {
+            "label": "结果 / Message",
+            "items": [
+              {
+                "cn": "宝石没有掉下来",
+                "py": "bǎo shí méi yǒu diào xià lái",
+                "en": "no jewels fell"
+              },
+              {
+                "cn": "平安比宝石重要",
+                "py": "píng ān bǐ bǎo shí zhong yào",
+                "en": "safety matters more than jewels"
+              }
+            ]
+          }
+        ]
+      },
+      "vocabulary": [
+        {
+          "cn": "神奇",
+          "py": "shén qí",
+          "en": "magical",
+          "img": null
+        },
+        {
+          "cn": "许愿",
+          "py": "xǔ yuàn",
+          "en": "make a wish",
+          "img": null
+        },
+        {
+          "cn": "愿望",
+          "py": "yuàn wàng",
+          "en": "wish",
+          "img": null
+        },
+        {
+          "cn": "成真",
+          "py": "chéng zhēn",
+          "en": "come true",
+          "img": null
+        },
+        {
+          "cn": "贪心",
+          "py": "tān xīn",
+          "en": "greedy",
+          "img": null
+        },
+        {
+          "cn": "有钱人",
+          "py": "yǒu qián rén",
+          "en": "rich person",
+          "img": null
+        },
+        {
+          "cn": "宝石",
+          "py": "bǎo shí",
+          "en": "jewel",
+          "img": null
+        },
+        {
+          "cn": "小英雄",
+          "py": "xiǎo yīng xióng",
+          "en": "young hero",
+          "img": null
+        },
+        {
+          "cn": "滚下来",
+          "py": "gǔn xià lái",
+          "en": "roll down",
+          "img": null
+        },
+        {
+          "cn": "撞到",
+          "py": "zhuàng dào",
+          "en": "hit",
+          "img": null
+        },
+        {
+          "cn": "盖墙",
+          "py": "gài qiáng",
+          "en": "build a wall",
+          "img": null
+        },
+        {
+          "cn": "漏斗",
+          "py": "lòu dǒu",
+          "en": "funnel",
+          "img": null
+        },
+        {
+          "cn": "抢先",
+          "py": "qiǎng xiān",
+          "en": "go first",
+          "img": null
+        },
+        {
+          "cn": "平安",
+          "py": "píng ān",
+          "en": "safe and sound",
+          "img": null
+        },
+        {
+          "cn": "比不上",
+          "py": "bǐ bu shàng",
+          "en": "cannot compare with",
+          "img": null
+        }
+      ]
+    }
+  ],
+  "mindMapLanguage": {
+    "神奇的地方 / Setting": [
+      "",
+      "Setting"
+    ],
+    "一座神奇的山": [
+      "yí zuò shén qí de shān",
+      "a magic mountain"
+    ],
+    "每年可以许一个愿": [
+      "měi nián kě yǐ xǔ yí ge yuàn",
+      "one wish each year"
+    ],
+    "危险 / Problem": [
+      "",
+      "Problem"
+    ],
+    "有钱人想要很多宝石": [
+      "yǒu qián rén xiǎng yào hěn duō bǎo shí",
+      "rich man wanted lots of jewels"
+    ],
+    "宝石会撞到家": [
+      "bǎo shí huì zhuàng dào jiā",
+      "jewels could hit homes"
+    ],
+    "办法 / Solution": [
+      "",
+      "Solution"
+    ],
+    "盖墙或做漏斗都不行": [
+      "gài qiáng huo zuò lòu dǒu dōu bù xing",
+      "a wall or funnel would not work"
+    ],
+    "小英雄抢先许愿": [
+      "xiǎo yīng xióng qiǎng xiān xǔ yuàn",
+      "young hero made the wish first"
+    ],
+    "结果 / Message": [
+      "",
+      "Message"
+    ],
+    "宝石没有掉下来": [
+      "bǎo shí méi yǒu diào xià lái",
+      "no jewels fell"
+    ],
+    "平安比宝石重要": [
+      "píng ān bǐ bǎo shí zhong yào",
+      "safety matters more than jewels"
+    ]
+  },
+  "overview": null
+}
