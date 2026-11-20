@@ -1,0 +1,450 @@
+{
+  "schemaVersion": 1,
+  "title": "孙悟空和大熊",
+  "mode": "shortParagraph",
+  "author": "Eleanor",
+  "sections": [
+    {
+      "title": "全文",
+      "pinyin": "quán wén",
+      "englishTitle": "Full Story",
+      "paragraph": [
+        {
+          "c": "有一天",
+          "p": "yǒu yì tiān"
+        },
+        {
+          "c": "，"
+        },
+        {
+          "c": "孙悟空",
+          "p": "sūn wù kōng",
+          "d": "v:Sun Wukong"
+        },
+        {
+          "c": "在",
+          "p": "zài"
+        },
+        {
+          "c": "森林",
+          "p": "sēn lín",
+          "d": "v:forest"
+        },
+        {
+          "c": "里",
+          "p": "lǐ"
+        },
+        {
+          "c": "看到",
+          "p": "kàn dào",
+          "d": "v:to see"
+        },
+        {
+          "c": "一只",
+          "p": "yì zhī"
+        },
+        {
+          "c": "大熊",
+          "p": "dà xióng",
+          "d": "v:big bear"
+        },
+        {
+          "c": "。"
+        },
+        {
+          "c": "他",
+          "p": "tā"
+        },
+        {
+          "c": "好",
+          "p": "hǎo"
+        },
+        {
+          "c": "害怕",
+          "p": "hài pà",
+          "d": "v:scared"
+        },
+        {
+          "c": "！"
+        }
+      ],
+      "paragraphs": [
+        [
+          {
+            "c": "有一天",
+            "p": "yǒu yì tiān"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "孙悟空",
+            "p": "sūn wù kōng",
+            "d": "v:Sun Wukong"
+          },
+          {
+            "c": "在",
+            "p": "zài"
+          },
+          {
+            "c": "森林",
+            "p": "sēn lín",
+            "d": "v:forest"
+          },
+          {
+            "c": "里",
+            "p": "lǐ"
+          },
+          {
+            "c": "看到",
+            "p": "kàn dào",
+            "d": "v:to see"
+          },
+          {
+            "c": "一只",
+            "p": "yì zhī"
+          },
+          {
+            "c": "大熊",
+            "p": "dà xióng",
+            "d": "v:big bear"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "他",
+            "p": "tā"
+          },
+          {
+            "c": "好",
+            "p": "hǎo"
+          },
+          {
+            "c": "害怕",
+            "p": "hài pà",
+            "d": "v:scared"
+          },
+          {
+            "c": "！"
+          }
+        ],
+        [
+          {
+            "c": "他",
+            "p": "tā"
+          },
+          {
+            "c": "从",
+            "p": "cóng"
+          },
+          {
+            "c": "耳朵",
+            "p": "ěr duo",
+            "d": "v:ear"
+          },
+          {
+            "c": "里",
+            "p": "lǐ"
+          },
+          {
+            "c": "拿出",
+            "p": "ná chū"
+          },
+          {
+            "c": "金箍棒",
+            "p": "jīn gū bàng",
+            "d": "v:magic staff"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "说",
+            "p": "shuō"
+          },
+          {
+            "c": "："
+          },
+          {
+            "c": "“"
+          },
+          {
+            "c": "变大",
+            "p": "biàn dà",
+            "d": "v:grow bigger"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "变大",
+            "p": "biàn dà",
+            "d": "v:grow bigger"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "”"
+          },
+          {
+            "c": "金箍棒",
+            "p": "jīn gū bàng",
+            "d": "v:magic staff"
+          },
+          {
+            "c": "变得",
+            "p": "biàn de"
+          },
+          {
+            "c": "好大",
+            "p": "hǎo dà"
+          },
+          {
+            "c": "！"
+          }
+        ],
+        [
+          {
+            "c": "大熊",
+            "p": "dà xióng",
+            "d": "v:big bear"
+          },
+          {
+            "c": "吓跑",
+            "p": "xià pǎo",
+            "d": "v:scare away"
+          },
+          {
+            "c": "了",
+            "p": "le"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "孙悟空",
+            "p": "sūn wù kōng",
+            "d": "v:Sun Wukong"
+          },
+          {
+            "c": "笑着",
+            "p": "xiào zhe",
+            "d": "v:smiling"
+          },
+          {
+            "c": "说",
+            "p": "shuō"
+          },
+          {
+            "c": "："
+          },
+          {
+            "c": "“"
+          },
+          {
+            "c": "我做到了",
+            "p": "wǒ zuò dào le"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "”"
+          }
+        ]
+      ],
+      "translation": "One day, Sun Wukong saw a big bear in the forest. He was scared!",
+      "translations": [
+        "One day, Sun Wukong saw a big bear in the forest. He was scared!",
+        "He took his magic stick out of his ear. “Grow! Grow!” he said. The stick got very big!",
+        "The bear ran away. Sun Wukong smiled. “I did it!” he said."
+      ],
+      "mindMap": {
+        "images": [],
+        "branches": [
+          {
+            "label": "谁？ / Who?",
+            "items": [
+              {
+                "cn": "孙悟空",
+                "py": "sūn wù kōng",
+                "en": "Sun Wukong"
+              },
+              {
+                "cn": "一只大熊",
+                "py": "yì zhī dà xióng",
+                "en": "a big bear"
+              }
+            ]
+          },
+          {
+            "label": "在哪里？ / Where?",
+            "items": [
+              {
+                "cn": "在森林里",
+                "py": "zài sēn lín lǐ",
+                "en": "in the forest"
+              },
+              {
+                "cn": "孙悟空看到大熊",
+                "py": "sūn wù kōng kàn dào dà xióng",
+                "en": "Sun Wukong saw a bear"
+              }
+            ]
+          },
+          {
+            "label": "做什么？ / Action",
+            "items": [
+              {
+                "cn": "拿出金箍棒",
+                "py": "ná chū jīn gū bàng",
+                "en": "took out his magic staff"
+              },
+              {
+                "cn": "说“变大！变大！”",
+                "py": "shuō “ biàn dà! biàn dà! ”",
+                "en": "said “Grow! Grow!”"
+              }
+            ]
+          },
+          {
+            "label": "结果 / Ending",
+            "items": [
+              {
+                "cn": "大熊吓跑了",
+                "py": "dà xióng xià pǎo le",
+                "en": "the bear ran away"
+              },
+              {
+                "cn": "孙悟空说“我做到了！”",
+                "py": "sūn wù kōng shuō “ wǒ zuò dào le! ”",
+                "en": "Sun Wukong said “I did it!”"
+              }
+            ]
+          }
+        ]
+      },
+      "vocabulary": [
+        {
+          "cn": "孙悟空",
+          "py": "sūn wù kōng",
+          "en": "Sun Wukong",
+          "img": null
+        },
+        {
+          "cn": "大熊",
+          "py": "dà xióng",
+          "en": "big bear",
+          "img": null
+        },
+        {
+          "cn": "森林",
+          "py": "sēn lín",
+          "en": "forest",
+          "img": null
+        },
+        {
+          "cn": "看到",
+          "py": "kàn dào",
+          "en": "to see",
+          "img": null
+        },
+        {
+          "cn": "害怕",
+          "py": "hài pà",
+          "en": "scared",
+          "img": null
+        },
+        {
+          "cn": "耳朵",
+          "py": "ěr duo",
+          "en": "ear",
+          "img": null
+        },
+        {
+          "cn": "金箍棒",
+          "py": "jīn gū bàng",
+          "en": "magic staff",
+          "img": null
+        },
+        {
+          "cn": "变大",
+          "py": "biàn dà",
+          "en": "grow bigger",
+          "img": null
+        },
+        {
+          "cn": "吓跑",
+          "py": "xià pǎo",
+          "en": "scare away",
+          "img": null
+        },
+        {
+          "cn": "笑着",
+          "py": "xiào zhe",
+          "en": "smiling",
+          "img": null
+        },
+        {
+          "cn": "做到",
+          "py": "zuò dào",
+          "en": "to accomplish",
+          "img": null
+        }
+      ]
+    }
+  ],
+  "mindMapLanguage": {
+    "谁？ / Who?": [
+      "",
+      "Who?"
+    ],
+    "孙悟空": [
+      "sūn wù kōng",
+      "Sun Wukong"
+    ],
+    "一只大熊": [
+      "yì zhī dà xióng",
+      "a big bear"
+    ],
+    "在哪里？ / Where?": [
+      "",
+      "Where?"
+    ],
+    "在森林里": [
+      "zài sēn lín lǐ",
+      "in the forest"
+    ],
+    "孙悟空看到大熊": [
+      "sūn wù kōng kàn dào dà xióng",
+      "Sun Wukong saw a bear"
+    ],
+    "做什么？ / Action": [
+      "",
+      "Action"
+    ],
+    "拿出金箍棒": [
+      "ná chū jīn gū bàng",
+      "took out his magic staff"
+    ],
+    "说“变大！变大！”": [
+      "shuō “ biàn dà! biàn dà! ”",
+      "said “Grow! Grow!”"
+    ],
+    "结果 / Ending": [
+      "",
+      "Ending"
+    ],
+    "大熊吓跑了": [
+      "dà xióng xià pǎo le",
+      "the bear ran away"
+    ],
+    "孙悟空说“我做到了！”": [
+      "sūn wù kōng shuō “ wǒ zuò dào le! ”",
+      "Sun Wukong said “I did it!”"
+    ]
+  },
+  "overview": null
+}
