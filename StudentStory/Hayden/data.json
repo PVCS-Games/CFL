@@ -1,0 +1,1075 @@
+{
+  "schemaVersion": 1,
+  "title": "我的玩具蜘蛛",
+  "mode": "shortParagraph",
+  "sections": [
+    {
+      "title": "全文",
+      "pinyin": "quán wén",
+      "englishTitle": "Full Story",
+      "paragraph": [
+        {
+          "c": "有一天",
+          "p": "yǒu yì tiān"
+        },
+        {
+          "c": "，"
+        },
+        {
+          "c": "我",
+          "p": "wǒ"
+        },
+        {
+          "c": "带",
+          "p": "dài"
+        },
+        {
+          "c": "了",
+          "p": "le"
+        },
+        {
+          "c": "一只",
+          "p": "yì zhī",
+          "d": "g:classifier for animals"
+        },
+        {
+          "c": "玩具",
+          "p": "wán jù"
+        },
+        {
+          "c": "蜘蛛",
+          "p": "zhī zhū"
+        },
+        {
+          "c": "去",
+          "p": "qù"
+        },
+        {
+          "c": "学校",
+          "p": "xué xiào"
+        },
+        {
+          "c": "。"
+        },
+        {
+          "c": "它",
+          "p": "tā"
+        },
+        {
+          "c": "是",
+          "p": "shì"
+        },
+        {
+          "c": "黑色",
+          "p": "hēi sè",
+          "d": "v:black"
+        },
+        {
+          "c": "的",
+          "p": "de"
+        },
+        {
+          "c": "，"
+        },
+        {
+          "c": "有",
+          "p": "yǒu"
+        },
+        {
+          "c": "八条",
+          "p": "bā tiáo"
+        },
+        {
+          "c": "腿",
+          "p": "tuǐ"
+        },
+        {
+          "c": "，"
+        },
+        {
+          "c": "看起来",
+          "p": "kàn qǐ lái",
+          "d": "v:to look / appear"
+        },
+        {
+          "c": "像",
+          "p": "xiàng"
+        },
+        {
+          "c": "真的",
+          "p": "zhēn de",
+          "d": "v:real"
+        },
+        {
+          "c": "！"
+        },
+        {
+          "c": "我",
+          "p": "wǒ"
+        },
+        {
+          "c": "说",
+          "p": "shuō"
+        },
+        {
+          "c": "："
+        },
+        {
+          "c": "“"
+        },
+        {
+          "c": "它",
+          "p": "tā"
+        },
+        {
+          "c": "是",
+          "p": "shì"
+        },
+        {
+          "c": "假的",
+          "p": "jiǎ de",
+          "d": "v:fake"
+        },
+        {
+          "c": "！"
+        },
+        {
+          "c": "”"
+        },
+        {
+          "c": "可是",
+          "p": "kě shì",
+          "d": "g:however / but"
+        },
+        {
+          "c": "有",
+          "p": "yǒu"
+        },
+        {
+          "c": "几个",
+          "p": "jǐ ge"
+        },
+        {
+          "c": "同学",
+          "p": "tóng xué",
+          "d": "v:classmates"
+        },
+        {
+          "c": "不",
+          "p": "bù"
+        },
+        {
+          "c": "相信",
+          "p": "xiāng xìn",
+          "d": "v:to believe"
+        },
+        {
+          "c": "我",
+          "p": "wǒ"
+        },
+        {
+          "c": "。"
+        },
+        {
+          "c": "我",
+          "p": "wǒ"
+        },
+        {
+          "c": "有点",
+          "p": "yǒu diǎn"
+        },
+        {
+          "c": "难过",
+          "p": "nán guò",
+          "d": "v:sad"
+        },
+        {
+          "c": "，"
+        },
+        {
+          "c": "也",
+          "p": "yě"
+        },
+        {
+          "c": "怕",
+          "p": "pà"
+        },
+        {
+          "c": "老师",
+          "p": "lǎo shī"
+        },
+        {
+          "c": "会",
+          "p": "huì"
+        },
+        {
+          "c": "吓一跳",
+          "p": "xià yí tiào",
+          "d": "v:to be startled"
+        },
+        {
+          "c": "。"
+        },
+        {
+          "c": "下次",
+          "p": "xià cì",
+          "d": "v:next time"
+        },
+        {
+          "c": "，"
+        },
+        {
+          "c": "我",
+          "p": "wǒ"
+        },
+        {
+          "c": "先",
+          "p": "xiān",
+          "d": "v:first"
+        },
+        {
+          "c": "说",
+          "p": "shuō"
+        },
+        {
+          "c": "它",
+          "p": "tā"
+        },
+        {
+          "c": "是",
+          "p": "shì"
+        },
+        {
+          "c": "玩具",
+          "p": "wán jù"
+        },
+        {
+          "c": "，"
+        },
+        {
+          "c": "再",
+          "p": "zài",
+          "d": "g:then, after an earlier action"
+        },
+        {
+          "c": "拿出来",
+          "p": "ná chū lái",
+          "d": "v:to take out"
+        },
+        {
+          "c": "。"
+        },
+        {
+          "c": "放学后",
+          "p": "fàng xué hòu",
+          "d": "v:after school"
+        },
+        {
+          "c": "，"
+        },
+        {
+          "c": "我",
+          "p": "wǒ"
+        },
+        {
+          "c": "带",
+          "p": "dài"
+        },
+        {
+          "c": "蜘蛛",
+          "p": "zhī zhū"
+        },
+        {
+          "c": "去",
+          "p": "qù"
+        },
+        {
+          "c": "安亲班",
+          "p": "ān qīn bān",
+          "d": "v:after-school care"
+        },
+        {
+          "c": "。"
+        },
+        {
+          "c": "我",
+          "p": "wǒ"
+        },
+        {
+          "c": "先",
+          "p": "xiān",
+          "d": "v:first"
+        },
+        {
+          "c": "说",
+          "p": "shuō"
+        },
+        {
+          "c": "："
+        },
+        {
+          "c": "“"
+        },
+        {
+          "c": "这",
+          "p": "zhè"
+        },
+        {
+          "c": "是",
+          "p": "shì"
+        },
+        {
+          "c": "玩具",
+          "p": "wán jù"
+        },
+        {
+          "c": "蜘蛛",
+          "p": "zhī zhū"
+        },
+        {
+          "c": "！"
+        },
+        {
+          "c": "”"
+        },
+        {
+          "c": "然后",
+          "p": "rán hòu",
+          "d": "g:then / afterwards"
+        },
+        {
+          "c": "才",
+          "p": "cái",
+          "d": "g:only then"
+        },
+        {
+          "c": "拿出来",
+          "p": "ná chū lái",
+          "d": "v:to take out"
+        },
+        {
+          "c": "。"
+        },
+        {
+          "c": "大家",
+          "p": "dà jiā"
+        },
+        {
+          "c": "都",
+          "p": "dōu"
+        },
+        {
+          "c": "相信",
+          "p": "xiāng xìn",
+          "d": "v:to believe"
+        },
+        {
+          "c": "我",
+          "p": "wǒ"
+        },
+        {
+          "c": "，"
+        },
+        {
+          "c": "谁",
+          "p": "shéi"
+        },
+        {
+          "c": "也",
+          "p": "yě"
+        },
+        {
+          "c": "没",
+          "p": "méi"
+        },
+        {
+          "c": "被",
+          "p": "bèi",
+          "d": "g:passive marker"
+        },
+        {
+          "c": "吓到",
+          "p": "xià dào"
+        },
+        {
+          "c": "。"
+        },
+        {
+          "c": "我",
+          "p": "wǒ"
+        },
+        {
+          "c": "真",
+          "p": "zhēn"
+        },
+        {
+          "c": "开心",
+          "p": "kāi xīn",
+          "d": "v:happy"
+        },
+        {
+          "c": "！"
+        }
+      ],
+      "paragraphs": [
+        [
+          {
+            "c": "有一天",
+            "p": "yǒu yì tiān"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "带",
+            "p": "dài"
+          },
+          {
+            "c": "了",
+            "p": "le"
+          },
+          {
+            "c": "一只",
+            "p": "yì zhī",
+            "d": "g:classifier for animals"
+          },
+          {
+            "c": "玩具",
+            "p": "wán jù"
+          },
+          {
+            "c": "蜘蛛",
+            "p": "zhī zhū"
+          },
+          {
+            "c": "去",
+            "p": "qù"
+          },
+          {
+            "c": "学校",
+            "p": "xué xiào"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "它",
+            "p": "tā"
+          },
+          {
+            "c": "是",
+            "p": "shì"
+          },
+          {
+            "c": "黑色",
+            "p": "hēi sè",
+            "d": "v:black"
+          },
+          {
+            "c": "的",
+            "p": "de"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "有",
+            "p": "yǒu"
+          },
+          {
+            "c": "八条",
+            "p": "bā tiáo"
+          },
+          {
+            "c": "腿",
+            "p": "tuǐ"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "看起来",
+            "p": "kàn qǐ lái",
+            "d": "v:to look / appear"
+          },
+          {
+            "c": "像",
+            "p": "xiàng"
+          },
+          {
+            "c": "真的",
+            "p": "zhēn de",
+            "d": "v:real"
+          },
+          {
+            "c": "！"
+          }
+        ],
+        [
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "说",
+            "p": "shuō"
+          },
+          {
+            "c": "："
+          },
+          {
+            "c": "“"
+          },
+          {
+            "c": "它",
+            "p": "tā"
+          },
+          {
+            "c": "是",
+            "p": "shì"
+          },
+          {
+            "c": "假的",
+            "p": "jiǎ de",
+            "d": "v:fake"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "”"
+          },
+          {
+            "c": "可是",
+            "p": "kě shì",
+            "d": "g:however / but"
+          },
+          {
+            "c": "有",
+            "p": "yǒu"
+          },
+          {
+            "c": "几个",
+            "p": "jǐ ge"
+          },
+          {
+            "c": "同学",
+            "p": "tóng xué",
+            "d": "v:classmates"
+          },
+          {
+            "c": "不",
+            "p": "bù"
+          },
+          {
+            "c": "相信",
+            "p": "xiāng xìn",
+            "d": "v:to believe"
+          },
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "有点",
+            "p": "yǒu diǎn"
+          },
+          {
+            "c": "难过",
+            "p": "nán guò",
+            "d": "v:sad"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "也",
+            "p": "yě"
+          },
+          {
+            "c": "怕",
+            "p": "pà"
+          },
+          {
+            "c": "老师",
+            "p": "lǎo shī"
+          },
+          {
+            "c": "会",
+            "p": "huì"
+          },
+          {
+            "c": "吓一跳",
+            "p": "xià yí tiào",
+            "d": "v:to be startled"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "下次",
+            "p": "xià cì",
+            "d": "v:next time"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "先",
+            "p": "xiān",
+            "d": "v:first"
+          },
+          {
+            "c": "说",
+            "p": "shuō"
+          },
+          {
+            "c": "它",
+            "p": "tā"
+          },
+          {
+            "c": "是",
+            "p": "shì"
+          },
+          {
+            "c": "玩具",
+            "p": "wán jù"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "再",
+            "p": "zài",
+            "d": "g:then, after an earlier action"
+          },
+          {
+            "c": "拿出来",
+            "p": "ná chū lái",
+            "d": "v:to take out"
+          },
+          {
+            "c": "。"
+          }
+        ],
+        [
+          {
+            "c": "放学后",
+            "p": "fàng xué hòu",
+            "d": "v:after school"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "带",
+            "p": "dài"
+          },
+          {
+            "c": "蜘蛛",
+            "p": "zhī zhū"
+          },
+          {
+            "c": "去",
+            "p": "qù"
+          },
+          {
+            "c": "安亲班",
+            "p": "ān qīn bān",
+            "d": "v:after-school care"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "先",
+            "p": "xiān",
+            "d": "v:first"
+          },
+          {
+            "c": "说",
+            "p": "shuō"
+          },
+          {
+            "c": "："
+          },
+          {
+            "c": "“"
+          },
+          {
+            "c": "这",
+            "p": "zhè"
+          },
+          {
+            "c": "是",
+            "p": "shì"
+          },
+          {
+            "c": "玩具",
+            "p": "wán jù"
+          },
+          {
+            "c": "蜘蛛",
+            "p": "zhī zhū"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "”"
+          },
+          {
+            "c": "然后",
+            "p": "rán hòu",
+            "d": "g:then / afterwards"
+          },
+          {
+            "c": "才",
+            "p": "cái",
+            "d": "g:only then"
+          },
+          {
+            "c": "拿出来",
+            "p": "ná chū lái",
+            "d": "v:to take out"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "大家",
+            "p": "dà jiā"
+          },
+          {
+            "c": "都",
+            "p": "dōu"
+          },
+          {
+            "c": "相信",
+            "p": "xiāng xìn",
+            "d": "v:to believe"
+          },
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "谁",
+            "p": "shéi"
+          },
+          {
+            "c": "也",
+            "p": "yě"
+          },
+          {
+            "c": "没",
+            "p": "méi"
+          },
+          {
+            "c": "被",
+            "p": "bèi",
+            "d": "g:passive marker"
+          },
+          {
+            "c": "吓到",
+            "p": "xià dào"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "真",
+            "p": "zhēn"
+          },
+          {
+            "c": "开心",
+            "p": "kāi xīn",
+            "d": "v:happy"
+          },
+          {
+            "c": "！"
+          }
+        ]
+      ],
+      "translation": "One day, I brought a toy spider to school. It was black, had eight legs, and looked real!\n\nI said, “It’s fake!” But a few classmates didn’t believe me. I felt a little sad and was also afraid the teacher might be startled. Next time, I would say it was a toy before taking it out.\n\nAfter school, I brought the spider to after-school care. First I said, “This is a toy spider!” and only then took it out. Everyone believed me, and nobody got scared. I was so happy!",
+      "translations": [
+        "One day, I brought a toy spider to school. It was black, had eight legs, and looked real!",
+        "I said, “It’s fake!” But a few classmates didn’t believe me. I felt a little sad and was also afraid the teacher might be startled. Next time, I would say it was a toy before taking it out.",
+        "After school, I brought the spider to after-school care. First I said, “This is a toy spider!” and only then took it out. Everyone believed me, and nobody got scared. I was so happy!"
+      ],
+      "mindMap": {
+        "images": [],
+        "branches": [
+          {
+            "label": "开始 / Beginning",
+            "items": [
+              {
+                "cn": "带玩具蜘蛛去学校",
+                "py": "dài wán jù zhī zhū qù xué xiào",
+                "en": "Brought a toy spider to school"
+              },
+              {
+                "cn": "黑色，有八条腿",
+                "py": "hēi sè, yǒu bā tiáo tuǐ",
+                "en": "Black, with eight legs"
+              }
+            ]
+          },
+          {
+            "label": "问题 / Problem",
+            "items": [
+              {
+                "cn": "有几个同学不相信",
+                "py": "yǒu jǐ ge tóng xué bù xiāng xìn",
+                "en": "Some classmates did not believe it"
+              },
+              {
+                "cn": "我有点难过",
+                "py": "wǒ yǒu diǎn nán guò",
+                "en": "I felt a little sad"
+              },
+              {
+                "cn": "怕老师吓一跳",
+                "py": "pà lǎo shī xià yí tiào",
+                "en": "Worried the teacher would be startled"
+              }
+            ]
+          },
+          {
+            "label": "办法 / Plan",
+            "items": [
+              {
+                "cn": "先说是玩具",
+                "py": "xiān shuō shì wán jù",
+                "en": "Say it is a toy first"
+              },
+              {
+                "cn": "再拿出来",
+                "py": "zài ná chū lái",
+                "en": "Then take it out"
+              }
+            ]
+          },
+          {
+            "label": "结果 / Ending",
+            "items": [
+              {
+                "cn": "在安亲班先说明",
+                "py": "zài ān qīn bān xiān shuō míng",
+                "en": "Explained first at daycare"
+              },
+              {
+                "cn": "大家相信，没人被吓到",
+                "py": "dà jiā xiāng xìn, méi rén bèi xià dào",
+                "en": "Everyone believed; nobody got scared"
+              },
+              {
+                "cn": "我真开心",
+                "py": "wǒ zhēn kāi xīn",
+                "en": "I was so happy"
+              }
+            ]
+          }
+        ]
+      },
+      "vocabulary": [
+        {
+          "cn": "玩具蜘蛛",
+          "py": "wán jù zhī zhū",
+          "en": "toy spider",
+          "img": null
+        },
+        {
+          "cn": "黑色",
+          "py": "hēi sè",
+          "en": "black",
+          "img": null
+        },
+        {
+          "cn": "八条腿",
+          "py": "bā tiáo tuǐ",
+          "en": "eight legs",
+          "img": null
+        },
+        {
+          "cn": "看起来",
+          "py": "kàn qǐ lái",
+          "en": "to look / appear",
+          "img": null
+        },
+        {
+          "cn": "真的",
+          "py": "zhēn de",
+          "en": "real",
+          "img": null
+        },
+        {
+          "cn": "假的",
+          "py": "jiǎ de",
+          "en": "fake",
+          "img": null
+        },
+        {
+          "cn": "同学",
+          "py": "tóng xué",
+          "en": "classmates",
+          "img": null
+        },
+        {
+          "cn": "相信",
+          "py": "xiāng xìn",
+          "en": "to believe",
+          "img": null
+        },
+        {
+          "cn": "难过",
+          "py": "nán guò",
+          "en": "sad",
+          "img": null
+        },
+        {
+          "cn": "吓一跳",
+          "py": "xià yí tiào",
+          "en": "to be startled",
+          "img": null
+        },
+        {
+          "cn": "下次",
+          "py": "xià cì",
+          "en": "next time",
+          "img": null
+        },
+        {
+          "cn": "先",
+          "py": "xiān",
+          "en": "first",
+          "img": null
+        },
+        {
+          "cn": "拿出来",
+          "py": "ná chū lái",
+          "en": "to take out",
+          "img": null
+        },
+        {
+          "cn": "放学后",
+          "py": "fàng xué hòu",
+          "en": "after school",
+          "img": null
+        },
+        {
+          "cn": "安亲班",
+          "py": "ān qīn bān",
+          "en": "after-school care",
+          "img": null
+        },
+        {
+          "cn": "然后",
+          "py": "rán hòu",
+          "en": "then",
+          "img": null        },
+        {
+          "cn": "被吓到",
+          "py": "bèi xià dào",
+          "en": "to get scared",
+          "img": null
+        },
+        {
+          "cn": "开心",
+          "py": "kāi xīn",
+          "en": "happy",
+          "img": null
+        }
+      ]
+    }
+  ],
+  "mindMapLanguage": {
+    "开始 / Beginning": [
+      "",
+      "Beginning"
+    ],
+    "带玩具蜘蛛去学校": [
+      "dài wán jù zhī zhū qù xué xiào",
+      "Brought a toy spider to school"
+    ],
+    "黑色，有八条腿": [
+      "hēi sè, yǒu bā tiáo tuǐ",
+      "Black, with eight legs"
+    ],
+    "问题 / Problem": [
+      "",
+      "Problem"
+    ],
+    "有几个同学不相信": [
+      "yǒu jǐ ge tóng xué bù xiāng xìn",
+      "Some classmates did not believe it"
+    ],
+    "我有点难过": [
+      "wǒ yǒu diǎn nán guò",
+      "I felt a little sad"
+    ],
+    "怕老师吓一跳": [
+      "pà lǎo shī xià yí tiào",
+      "Worried the teacher would be startled"
+    ],
+    "办法 / Plan": [
+      "",
+      "Plan"
+    ],
+    "先说是玩具": [
+      "xiān shuō shì wán jù",
+      "Say it is a toy first"
+    ],
+    "再拿出来": [
+      "zài ná chū lái",
+      "Then take it out"
+    ],
+    "结果 / Ending": [
+      "",
+      "Ending"
+    ],
+    "在安亲班先说明": [
+      "zài ān qīn bān xiān shuō míng",
+      "Explained first at daycare"
+    ],
+    "大家相信，没人被吓到": [
+      "dà jiā xiāng xìn, méi rén bèi xià dào",
+      "Everyone believed; nobody got scared"
+    ],
+    "我真开心": [
+      "wǒ zhēn kāi xīn",
+      "I was so happy"
+    ]
+  },
+  "overview": null
+}
