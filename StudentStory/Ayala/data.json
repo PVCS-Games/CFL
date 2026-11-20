@@ -1,0 +1,479 @@
+{
+  "schemaVersion": 1,
+  "title": "公主去舞会",
+  "mode": "shortParagraph",
+  "author": "Ayala",
+  "sections": [
+    {
+      "title": "全文",
+      "pinyin": "quán wén",
+      "englishTitle": "Full Story",
+      "paragraph": [
+        {
+          "c": "晚上",
+          "p": "wǎn shang",
+          "d": "v:evening"
+        },
+        {
+          "c": "，"
+        },
+        {
+          "c": "公主",
+          "p": "gōng zhǔ",
+          "d": "v:princess"
+        },
+        {
+          "c": "睡醒",
+          "p": "shuì xǐng",
+          "d": "v:wake up"
+        },
+        {
+          "c": "了",
+          "p": "le"
+        },
+        {
+          "c": "。"
+        },
+        {
+          "c": "“"
+        },
+        {
+          "c": "我",
+          "p": "wǒ"
+        },
+        {
+          "c": "要",
+          "p": "yào"
+        },
+        {
+          "c": "去",
+          "p": "qù"
+        },
+        {
+          "c": "舞会",
+          "p": "wǔ huì",
+          "d": "v:ball / dance"
+        },
+        {
+          "c": "！"
+        },
+        {
+          "c": "”"
+        }
+      ],
+      "paragraphs": [
+        [
+          {
+            "c": "晚上",
+            "p": "wǎn shang",
+            "d": "v:evening"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "公主",
+            "p": "gōng zhǔ",
+            "d": "v:princess"
+          },
+          {
+            "c": "睡醒",
+            "p": "shuì xǐng",
+            "d": "v:wake up"
+          },
+          {
+            "c": "了",
+            "p": "le"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "“"
+          },
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "要",
+            "p": "yào"
+          },
+          {
+            "c": "去",
+            "p": "qù"
+          },
+          {
+            "c": "舞会",
+            "p": "wǔ huì",
+            "d": "v:ball / dance"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "”"
+          }
+        ],
+        [
+          {
+            "c": "她",
+            "p": "tā"
+          },
+          {
+            "c": "来到",
+            "p": "lái dào"
+          },
+          {
+            "c": "城堡",
+            "p": "chéng bǎo",
+            "d": "v:castle"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "天好黑",
+            "p": "tiān hǎo hēi",
+            "d": "v:it is very dark"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "门",
+            "p": "mén"
+          },
+          {
+            "c": "在哪里呢",
+            "p": "zài nǎ lǐ ne"
+          },
+          {
+            "c": "？"
+          }
+        ],
+        [
+          {
+            "c": "公主",
+            "p": "gōng zhǔ",
+            "d": "v:princess"
+          },
+          {
+            "c": "打开",
+            "p": "dǎ kāi",
+            "d": "v:open / turn on"
+          },
+          {
+            "c": "小灯",
+            "p": "xiǎo dēng",
+            "d": "v:small light"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "“"
+          },
+          {
+            "c": "找到",
+            "p": "zhǎo dào",
+            "d": "v:find"
+          },
+          {
+            "c": "了",
+            "p": "le"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "”"
+          },
+          {
+            "c": "她",
+            "p": "tā"
+          },
+          {
+            "c": "走",
+            "p": "zǒu"
+          },
+          {
+            "c": "上",
+            "p": "shàng"
+          },
+          {
+            "c": "台阶",
+            "p": "tái jiē",
+            "d": "v:steps"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "打开",
+            "p": "dǎ kāi",
+            "d": "v:open / turn on"
+          },
+          {
+            "c": "门",
+            "p": "mén"
+          },
+          {
+            "c": "。"
+          }
+        ],
+        [
+          {
+            "c": "里面",
+            "p": "lǐ miàn"
+          },
+          {
+            "c": "有",
+            "p": "yǒu"
+          },
+          {
+            "c": "好听",
+            "p": "hǎo tīng"
+          },
+          {
+            "c": "的",
+            "p": "de"
+          },
+          {
+            "c": "音乐",
+            "p": "yīn yuè",
+            "d": "v:music"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "公主",
+            "p": "gōng zhǔ",
+            "d": "v:princess"
+          },
+          {
+            "c": "笑",
+            "p": "xiào"
+          },
+          {
+            "c": "了",
+            "p": "le"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "开心地",
+            "p": "kāi xīn de"
+          },
+          {
+            "c": "跳起舞来",
+            "p": "tiào qǐ wǔ lái",
+            "d": "v:start dancing"
+          },
+          {
+            "c": "！"
+          }
+        ]
+      ],
+      "translation": "One evening, a princess woke up. “It’s time for the ball!”",
+      "translations": [
+        "One evening, a princess woke up. “It’s time for the ball!”",
+        "She went to the castle. It was dark. Where was the door?",
+        "The princess turned on her little light. “I found it!” She walked up the steps and opened the door.",
+        "She heard lovely music. The princess smiled and began to dance!"
+      ],
+      "mindMap": {
+        "images": [],
+        "branches": [
+          {
+            "label": "谁？ / Who?",
+            "items": [
+              {
+                "cn": "一位公主",
+                "py": "yí wèi gōng zhǔ",
+                "en": "a princess"
+              },
+              {
+                "cn": "她要去舞会",
+                "py": "tā yào qù wǔ huì",
+                "en": "she wants to go to a ball"
+              }
+            ]
+          },
+          {
+            "label": "在哪里？ / Where?",
+            "items": [
+              {
+                "cn": "来到城堡",
+                "py": "lái dào chéng bǎo",
+                "en": "arrived at a castle"
+              },
+              {
+                "cn": "天好黑",
+                "py": "tiān hǎo hēi",
+                "en": "it was very dark"
+              }
+            ]
+          },
+          {
+            "label": "怎么做？ / Action",
+            "items": [
+              {
+                "cn": "打开小灯",
+                "py": "dǎ kāi xiǎo dēng",
+                "en": "turned on her little light"
+              },
+              {
+                "cn": "走上台阶，打开门",
+                "py": "zǒu shàng tái jiē, dǎ kāi mén",
+                "en": "went up the steps and opened the door"
+              }
+            ]
+          },
+          {
+            "label": "结果 / Ending",
+            "items": [
+              {
+                "cn": "听到好听的音乐",
+                "py": "tīng dào hǎo tīng de yīn yuè",
+                "en": "heard lovely music"
+              },
+              {
+                "cn": "开心地跳起舞来",
+                "py": "kāi xīn de tiào qǐ wǔ lái",
+                "en": "started dancing happily"
+              }
+            ]
+          }
+        ]
+      },
+      "vocabulary": [
+        {
+          "cn": "公主",
+          "py": "gōng zhǔ",
+          "en": "princess",
+          "img": null
+        },
+        {
+          "cn": "晚上",
+          "py": "wǎn shang",
+          "en": "evening",
+          "img": null
+        },
+        {
+          "cn": "睡醒",
+          "py": "shuì xǐng",
+          "en": "wake up",
+          "img": null
+        },
+        {
+          "cn": "舞会",
+          "py": "wǔ huì",
+          "en": "ball / dance",
+          "img": null
+        },
+        {
+          "cn": "城堡",
+          "py": "chéng bǎo",
+          "en": "castle",
+          "img": null
+        },
+        {
+          "cn": "天好黑",
+          "py": "tiān hǎo hēi",
+          "en": "it is very dark",
+          "img": null
+        },
+        {
+          "cn": "小灯",
+          "py": "xiǎo dēng",
+          "en": "small light",
+          "img": null
+        },
+        {
+          "cn": "找到",
+          "py": "zhǎo dào",
+          "en": "find",
+          "img": null
+        },
+        {
+          "cn": "台阶",
+          "py": "tái jiē",
+          "en": "steps",
+          "img": null
+        },
+        {
+          "cn": "打开",
+          "py": "dǎ kāi",
+          "en": "open / turn on",
+          "img": null
+        },
+        {
+          "cn": "音乐",
+          "py": "yīn yuè",
+          "en": "music",
+          "img": null
+        },
+        {
+          "cn": "跳起舞来",
+          "py": "tiào qǐ wǔ lái",
+          "en": "start dancing",
+          "img": null
+        }
+      ]
+    }
+  ],
+  "mindMapLanguage": {
+    "谁？ / Who?": [
+      "",
+      "Who?"
+    ],
+    "一位公主": [
+      "yí wèi gōng zhǔ",
+      "a princess"
+    ],
+    "她要去舞会": [
+      "tā yào qù wǔ huì",
+      "she wants to go to a ball"
+    ],
+    "在哪里？ / Where?": [
+      "",
+      "Where?"
+    ],
+    "来到城堡": [
+      "lái dào chéng bǎo",
+      "arrived at a castle"
+    ],
+    "天好黑": [
+      "tiān hǎo hēi",
+      "it was very dark"
+    ],
+    "怎么做？ / Action": [
+      "",
+      "Action"
+    ],
+    "打开小灯": [
+      "dǎ kāi xiǎo dēng",
+      "turned on her little light"
+    ],
+    "走上台阶，打开门": [
+      "zǒu shàng tái jiē, dǎ kāi mén",
+      "went up the steps and opened the door"
+    ],
+    "结果 / Ending": [
+      "",
+      "Ending"
+    ],
+    "听到好听的音乐": [
+      "tīng dào hǎo tīng de yīn yuè",
+      "heard lovely music"
+    ],
+    "开心地跳起舞来": [
+      "kāi xīn de tiào qǐ wǔ lái",
+      "started dancing happily"
+    ]
+  },
+  "overview": null
+}
