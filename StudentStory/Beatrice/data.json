@@ -1,0 +1,754 @@
+{
+  "schemaVersion": 1,
+  "title": "魔法猫",
+  "mode": "shortParagraph",
+  "author": "Beatrice",
+  "sections": [
+    {
+      "title": "全文",
+      "pinyin": "quán wén",
+      "englishTitle": "Full Story",
+      "paragraph": [
+        {
+          "c": "有一天",
+          "p": "yǒu yì tiān"
+        },
+        {
+          "c": "，"
+        },
+        {
+          "c": "我",
+          "p": "wǒ"
+        },
+        {
+          "c": "去",
+          "p": "qù"
+        },
+        {
+          "c": "上学",
+          "p": "shàng xué",
+          "d": "v:go to school"
+        },
+        {
+          "c": "。"
+        },
+        {
+          "c": "路上",
+          "p": "lù shàng"
+        },
+        {
+          "c": "，"
+        },
+        {
+          "c": "我",
+          "p": "wǒ"
+        },
+        {
+          "c": "看到",
+          "p": "kàn dào"
+        },
+        {
+          "c": "一只",
+          "p": "yì zhī"
+        },
+        {
+          "c": "橘猫",
+          "p": "jú māo",
+          "d": "v:orange cat"
+        },
+        {
+          "c": "困在",
+          "p": "kùn zài",
+          "d": "v:stuck in"
+        },
+        {
+          "c": "树上",
+          "p": "shù shàng",
+          "d": "v:in a tree"
+        },
+        {
+          "c": "。"
+        },
+        {
+          "c": "它",
+          "p": "tā"
+        },
+        {
+          "c": "戴着",
+          "p": "dài zhe",
+          "d": "v:wearing"
+        },
+        {
+          "c": "一顶",
+          "p": "yì dǐng"
+        },
+        {
+          "c": "魔法帽",
+          "p": "mó fǎ mào",
+          "d": "v:wizard hat"
+        },
+        {
+          "c": "！"
+        },
+        {
+          "c": "小猫",
+          "p": "xiǎo māo"
+        },
+        {
+          "c": "看起来",
+          "p": "kàn qǐ lái"
+        },
+        {
+          "c": "很",
+          "p": "hěn"
+        },
+        {
+          "c": "害怕",
+          "p": "hài pà",
+          "d": "v:scared"
+        },
+        {
+          "c": "，"
+        },
+        {
+          "c": "我",
+          "p": "wǒ"
+        },
+        {
+          "c": "想",
+          "p": "xiǎng"
+        },
+        {
+          "c": "帮帮",
+          "p": "bāng bang",
+          "d": "v:help"
+        },
+        {
+          "c": "它",
+          "p": "tā"
+        },
+        {
+          "c": "。"
+        }
+      ],
+      "paragraphs": [
+        [
+          {
+            "c": "有一天",
+            "p": "yǒu yì tiān"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "去",
+            "p": "qù"
+          },
+          {
+            "c": "上学",
+            "p": "shàng xué",
+            "d": "v:go to school"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "路上",
+            "p": "lù shàng"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "看到",
+            "p": "kàn dào"
+          },
+          {
+            "c": "一只",
+            "p": "yì zhī"
+          },
+          {
+            "c": "橘猫",
+            "p": "jú māo",
+            "d": "v:orange cat"
+          },
+          {
+            "c": "困在",
+            "p": "kùn zài",
+            "d": "v:stuck in"
+          },
+          {
+            "c": "树上",
+            "p": "shù shàng",
+            "d": "v:in a tree"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "它",
+            "p": "tā"
+          },
+          {
+            "c": "戴着",
+            "p": "dài zhe",
+            "d": "v:wearing"
+          },
+          {
+            "c": "一顶",
+            "p": "yì dǐng"
+          },
+          {
+            "c": "魔法帽",
+            "p": "mó fǎ mào",
+            "d": "v:wizard hat"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "小猫",
+            "p": "xiǎo māo"
+          },
+          {
+            "c": "看起来",
+            "p": "kàn qǐ lái"
+          },
+          {
+            "c": "很",
+            "p": "hěn"
+          },
+          {
+            "c": "害怕",
+            "p": "hài pà",
+            "d": "v:scared"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "想",
+            "p": "xiǎng"
+          },
+          {
+            "c": "帮帮",
+            "p": "bāng bang",
+            "d": "v:help"
+          },
+          {
+            "c": "它",
+            "p": "tā"
+          },
+          {
+            "c": "。"
+          }
+        ],
+        [
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "爬上树",
+            "p": "pá shàng shù",
+            "d": "v:climb up the tree"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "把",
+            "p": "bǎ"
+          },
+          {
+            "c": "猫",
+            "p": "māo"
+          },
+          {
+            "c": "救下来",
+            "p": "jiù xià lái",
+            "d": "v:rescue and bring down"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "它",
+            "p": "tā"
+          },
+          {
+            "c": "送给",
+            "p": "sòng gěi"
+          },
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "一个",
+            "p": "yí gè"
+          },
+          {
+            "c": "魔法苹果",
+            "p": "mó fǎ píng guǒ",
+            "d": "v:magic apple"
+          },
+          {
+            "c": "。"
+          },
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "吃了一口",
+            "p": "chī le yì kǒu",
+            "d": "v:took a bite"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "就",
+            "p": "jiù"
+          },
+          {
+            "c": "有了",
+            "p": "yǒu le"
+          },
+          {
+            "c": "超能力",
+            "p": "chāo néng lì",
+            "d": "v:superpower"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "能",
+            "p": "néng"
+          },
+          {
+            "c": "和",
+            "p": "hé"
+          },
+          {
+            "c": "动物",
+            "p": "dòng wù",
+            "d": "v:animals"
+          },
+          {
+            "c": "说话",
+            "p": "shuō huà",
+            "d": "v:speak"
+          },
+          {
+            "c": "了",
+            "p": "le"
+          },
+          {
+            "c": "！"
+          }
+        ],
+        [
+          {
+            "c": "小猫",
+            "p": "xiǎo māo"
+          },
+          {
+            "c": "问",
+            "p": "wèn"
+          },
+          {
+            "c": "："
+          },
+          {
+            "c": "“"
+          },
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "可以",
+            "p": "kě yǐ"
+          },
+          {
+            "c": "跟",
+            "p": "gēn"
+          },
+          {
+            "c": "你",
+            "p": "nǐ"
+          },
+          {
+            "c": "回家",
+            "p": "huí jiā",
+            "d": "v:go home"
+          },
+          {
+            "c": "吗",
+            "p": "ma"
+          },
+          {
+            "c": "？"
+          },
+          {
+            "c": "”"
+          }
+        ],
+        [
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "说",
+            "p": "shuō"
+          },
+          {
+            "c": "："
+          },
+          {
+            "c": "“"
+          },
+          {
+            "c": "好呀",
+            "p": "hǎo ya"
+          },
+          {
+            "c": "！"
+          },
+          {
+            "c": "”"
+          },
+          {
+            "c": "我",
+            "p": "wǒ"
+          },
+          {
+            "c": "带",
+            "p": "dài"
+          },
+          {
+            "c": "它",
+            "p": "tā"
+          },
+          {
+            "c": "回家",
+            "p": "huí jiā",
+            "d": "v:go home"
+          },
+          {
+            "c": "，"
+          },
+          {
+            "c": "现在",
+            "p": "xiàn zài"
+          },
+          {
+            "c": "每天",
+            "p": "měi tiān",
+            "d": "v:every day"
+          },
+          {
+            "c": "都",
+            "p": "dōu"
+          },
+          {
+            "c": "和",
+            "p": "hé"
+          },
+          {
+            "c": "它",
+            "p": "tā"
+          },
+          {
+            "c": "一起玩",
+            "p": "yì qǐ wán",
+            "d": "v:play together"
+          },
+          {
+            "c": "。"
+          }
+        ]
+      ],
+      "translation": "One day, on my way to school, I saw an orange cat stuck in a tree. He was wearing a wizard hat! The cat looked scared, so I wanted to help.",
+      "translations": [
+        "One day, on my way to school, I saw an orange cat stuck in a tree. He was wearing a wizard hat! The cat looked scared, so I wanted to help.",
+        "I climbed up the tree and saved him. He gave me a magic apple. I took a bite, and it gave me a superpower! I could talk to animals!",
+        "“Can I come home with you?” the cat asked.",
+        "“Yes!” I said. I took him home, and now we play together every day."
+      ],
+      "mindMap": {
+        "images": [],
+        "branches": [
+          {
+            "label": "谁？ / Who?",
+            "items": [
+              {
+                "cn": "我",
+                "py": "wǒ",
+                "en": "I (the narrator)"
+              },
+              {
+                "cn": "一只橘猫",
+                "py": "yì zhī jú māo",
+                "en": "an orange cat"
+              }
+            ]
+          },
+          {
+            "label": "发生什么事？ / Problem",
+            "items": [
+              {
+                "cn": "橘猫困在树上",
+                "py": "jú māo kùn zài shù shàng",
+                "en": "an orange cat was stuck in a tree"
+              },
+              {
+                "cn": "小猫很害怕",
+                "py": "xiǎo māo hěn hài pà",
+                "en": "the cat was scared"
+              }
+            ]
+          },
+          {
+            "label": "怎么帮忙？ / Rescue",
+            "items": [
+              {
+                "cn": "爬上树，救下小猫",
+                "py": "pá shàng shù, jiù xià xiǎo māo",
+                "en": "climbed the tree and rescued the cat"
+              },
+              {
+                "cn": "小猫送我魔法苹果",
+                "py": "xiǎo māo sòng wǒ mó fǎ píng guǒ",
+                "en": "the cat gave me a magic apple"
+              }
+            ]
+          },
+          {
+            "label": "发生什么变化？ / Magic",
+            "items": [
+              {
+                "cn": "吃了苹果，有了超能力",
+                "py": "chī le píng guǒ, yǒu le chāo néng lì",
+                "en": "ate the apple and gained a superpower"
+              },
+              {
+                "cn": "能和动物说话",
+                "py": "néng hé dòng wù shuō huà",
+                "en": "could talk to animals"
+              }
+            ]
+          },
+          {
+            "label": "结果怎么样？ / Ending",
+            "items": [
+              {
+                "cn": "小猫跟我回家",
+                "py": "xiǎo māo gēn wǒ huí jiā",
+                "en": "the cat came home with me"
+              },
+              {
+                "cn": "每天一起玩",
+                "py": "měi tiān yì qǐ wán",
+                "en": "we play together every day"
+              }
+            ]
+          }
+        ]
+      },
+      "vocabulary": [
+        {
+          "cn": "上学",
+          "py": "shàng xué",
+          "en": "go to school",
+          "img": null
+        },
+        {
+          "cn": "橘猫",
+          "py": "jú māo",
+          "en": "orange cat",
+          "img": null
+        },
+        {
+          "cn": "困在",
+          "py": "kùn zài",
+          "en": "stuck in",
+          "img": null
+        },
+        {
+          "cn": "树上",
+          "py": "shù shàng",
+          "en": "in a tree",
+          "img": null
+        },
+        {
+          "cn": "戴着",
+          "py": "dài zhe",
+          "en": "wearing",
+          "img": null
+        },
+        {
+          "cn": "魔法帽",
+          "py": "mó fǎ mào",
+          "en": "wizard hat",
+          "img": null
+        },
+        {
+          "cn": "害怕",
+          "py": "hài pà",
+          "en": "scared",
+          "img": null
+        },
+        {
+          "cn": "帮帮",
+          "py": "bāng bang",
+          "en": "help",
+          "img": null
+        },
+        {
+          "cn": "爬上树",
+          "py": "pá shàng shù",
+          "en": "climb up the tree",
+          "img": null
+        },
+        {
+          "cn": "救下来",
+          "py": "jiù xià lái",
+          "en": "rescue and bring down",
+          "img": null
+        },
+        {
+          "cn": "魔法苹果",
+          "py": "mó fǎ píng guǒ",
+          "en": "magic apple",
+          "img": null
+        },
+        {
+          "cn": "吃了一口",
+          "py": "chī le yì kǒu",
+          "en": "took a bite",
+          "img": null
+        },
+        {
+          "cn": "超能力",
+          "py": "chāo néng lì",
+          "en": "superpower",
+          "img": null
+        },
+        {
+          "cn": "动物",
+          "py": "dòng wù",
+          "en": "animals",
+          "img": null
+        },
+        {
+          "cn": "说话",
+          "py": "shuō huà",
+          "en": "speak",
+          "img": null
+        },
+        {
+          "cn": "回家",
+          "py": "huí jiā",
+          "en": "go home",
+          "img": null
+        },
+        {
+          "cn": "每天",
+          "py": "měi tiān",
+          "en": "every day",
+          "img": null
+        },
+        {
+          "cn": "一起玩",
+          "py": "yì qǐ wán",
+          "en": "play together",
+          "img": null
+        }
+      ]
+    }
+  ],
+  "mindMapLanguage": {
+    "谁？ / Who?": [
+      "",
+      "Who?"
+    ],
+    "我": [
+      "wǒ",
+      "I (the narrator)"
+    ],
+    "一只橘猫": [
+      "yì zhī jú māo",
+      "an orange cat"
+    ],
+    "发生什么事？ / Problem": [
+      "",
+      "Problem"
+    ],
+    "橘猫困在树上": [
+      "jú māo kùn zài shù shàng",
+      "an orange cat was stuck in a tree"
+    ],
+    "小猫很害怕": [
+      "xiǎo māo hěn hài pà",
+      "the cat was scared"
+    ],
+    "怎么帮忙？ / Rescue": [
+      "",
+      "Rescue"
+    ],
+    "爬上树，救下小猫": [
+      "pá shàng shù, jiù xià xiǎo māo",
+      "climbed the tree and rescued the cat"
+    ],
+    "小猫送我魔法苹果": [
+      "xiǎo māo sòng wǒ mó fǎ píng guǒ",
+      "the cat gave me a magic apple"
+    ],
+    "发生什么变化？ / Magic": [
+      "",
+      "Magic"
+    ],
+    "吃了苹果，有了超能力": [
+      "chī le píng guǒ, yǒu le chāo néng lì",
+      "ate the apple and gained a superpower"
+    ],
+    "能和动物说话": [
+      "néng hé dòng wù shuō huà",
+      "could talk to animals"
+    ],
+    "结果怎么样？ / Ending": [
+      "",
+      "Ending"
+    ],
+    "小猫跟我回家": [
+      "xiǎo māo gēn wǒ huí jiā",
+      "the cat came home with me"
+    ],
+    "每天一起玩": [
+      "měi tiān yì qǐ wán",
+      "we play together every day"
+    ]
+  },
+  "overview": null
+}
