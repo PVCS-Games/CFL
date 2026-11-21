@@ -11,7 +11,24 @@ const LESSON_DATA={"schemaVersion":1,"title":"孙悟空和大熊","mode":"shortP
 const $=id=>document.getElementById(id);const el=(tag,cls,content)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(content!==undefined)x.textContent=content;return x};let data, unlocked=false,showPy=false,showEn=false,mapPy=false,mapEn=false,slow=false,playToken=0,playing=false,spoken=null;let cards=[];
 function stopSpeech(){playToken++;playing=false;if('speechSynthesis'in window)speechSynthesis.cancel();document.querySelectorAll('.sentence.playing').forEach(x=>x.classList.remove('playing'));}
 function speak(text,rate=1,onfinish=()=>{},onerror=()=>{}){if(!('speechSynthesis'in window)){onerror();return}const u=new SpeechSynthesisUtterance(text);u.lang='zh-CN';u.rate=rate;const voices=speechSynthesis.getVoices();u.voice=voices.find(v=>/^zh[-_]CN/i.test(v.lang))||voices.find(v=>/^zh/i.test(v.lang))||null;u.onend=onfinish;u.onerror=onerror;speechSynthesis.speak(u)}
-function sentenceGroups(units){const result=[];let buffer=[];for(const u of units){buffer.push(u);if(/[。！？]/.test(u.c)){result.push(buffer);buffer=[]}}if(buffer.length)result.push(buffer);return result}
+function sentenceGroups(units){
+ // Keep complete dialogue together: quoted punctuation does not terminate a sentence
+ // until its closing quotation mark. Never strand ” at the start of the next segment.
+ const result=[];let buffer=[],quoteDepth=0,endedInsideQuote=false;
+ const flush=()=>{if(buffer.length){result.push(buffer);buffer=[];}endedInsideQuote=false;};
+ for(const u of units){
+  const text=u.c||'';
+  for(const ch of text){if(ch==='“')quoteDepth++;else if(ch==='”')quoteDepth=Math.max(0,quoteDepth-1);}
+  buffer.push(u);
+  if(quoteDepth>0){
+   if(/[。！？]/.test(text))endedInsideQuote=true;
+   continue;
+  }
+  if(/[。！？]/.test(text)||text.includes('”')&&endedInsideQuote)flush();
+ }
+ flush();
+ return result;
+}
 let activeReadingNote=null;
 function hideNote(){if(activeReadingNote)activeReadingNote.classList.remove('is-active');activeReadingNote=null;$('note').hidden=true;}
 document.addEventListener('pointerdown',e=>{if(!e.target.closest('#reading .unit'))hideNote()});
