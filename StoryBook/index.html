@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5f7fb">
+<title>PVCS 中文故事书 | StoryBook Library</title>
+<style>
+:root{font-family:Arial,"KaiTi","STKaiti",sans-serif;color:#1c2940;background:#f5f7fb}*{box-sizing:border-box}body{margin:0}header{background:#fff;border-bottom:1px solid #dce3ed}header .wrap{padding:23px 24px}.wrap{max-width:1100px;margin:auto}h1{margin:0;font-size:clamp(27px,4vw,39px);letter-spacing:.01em}h1 span{color:#3264a4}p.sub{color:#61708b;margin:9px 0 0;font-size:15px}main{padding:30px 24px 65px}.tools{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:22px}input{width:min(100%,450px);font:inherit;padding:14px 17px;border:1px solid #bac8dc;border-radius:13px;background:white;outline-color:#3264a4}.count{color:#63728c;font-size:14px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:17px}.book{display:flex;flex-direction:column;gap:13px;background:#fff;border:1px solid #dee6f1;border-radius:17px;padding:23px 21px;text-decoration:none;color:inherit;min-height:165px;box-shadow:0 3px 12px #17345708;transition:transform .16s,box-shadow .16s,border-color .16s}.book:hover,.book:focus-visible{transform:translateY(-3px);border-color:#7396c6;box-shadow:0 8px 23px #1734571c;outline:none}.book .symbol{font-size:25px}.book h2{font:700 25px/1.35 "KaiTi","STKaiti",serif;margin:0;overflow-wrap:anywhere}.book .action{margin-top:auto;color:#3264a4;font-weight:700;font-size:14px}.notice{padding:15px;color:#66748e;font-size:14px}footer{padding:20px;text-align:center;color:#6b7890;font-size:13px}@media(max-width:550px){main{padding:22px 16px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.book{padding:16px 13px;min-height:150px}.book h2{font-size:21px}header .wrap{padding:21px 17px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><h1>📚 <span>中文故事书</span> StoryBook Library</h1><p class="sub">Pomona Valley Chinese School · Choose a story to begin reading</p></div></header>
+<main class="wrap"><div class="tools"><input id="search" type="search" aria-label="Search stories" placeholder="🔎 Search stories / 搜索故事"><span id="count" class="count"></span></div><div id="books" class="grid"></div><div id="notice" class="notice" hidden></div></main>
+<footer>PVCS · Chinese as a Foreign Language</footer>
+<script>
+const OWNER="PVCS-Games",REPO="CFL",BRANCH="main",FOLDER="StoryBook";
+const FALLBACK=["书包里有什么","买东西","他们是谁","你几岁","你叫什么名字","你是哪国人","哪个最长？哪个最短?","在学校","我爱我的家","我饿了","气球飞了","穿上衣服","那是什么"];
+const app=document.getElementById("books"),search=document.getElementById("search"),count=document.getElementById("count"),notice=document.getElementById("notice");
+let stories=FALLBACK.slice();
+function url(name){return "./"+encodeURIComponent(name)+"/";}
+function render(){
+ const term=search.value.trim().toLocaleLowerCase();const filtered=stories.filter(n=>n.toLocaleLowerCase().includes(term));
+ app.replaceChildren();
+ for(const name of filtered){const a=document.createElement("a");a.className="book";a.href=url(name);a.setAttribute("aria-label","Read "+name);
+ const icon=document.createElement("span");icon.className="symbol";icon.textContent="📖";
+ const title=document.createElement("h2");title.textContent=name;
+ const action=document.createElement("span");action.className="action";action.textContent="Read story →";
+ a.append(icon,title,action);app.append(a);}
+ count.textContent=filtered.length+" / "+stories.length+" stories";
+ notice.hidden=filtered.length>0;notice.textContent=filtered.length?"":"No matching stories / 没有找到故事";
+}
+search.addEventListener("input",render);render();
+(async()=>{
+ try{
+ const res=await fetch("https://api.github.com/repos/"+OWNER+"/"+REPO+"/contents/"+FOLDER+"?ref="+BRANCH,{cache:"no-store",headers:{"Accept":"application/vnd.github+json"}});
+ if(!res.ok)throw Error("GitHub API "+res.status);
+ const data=await res.json();
+ if(!Array.isArray(data))throw Error("Unexpected directory response");
+ const folders=data.filter(x=>x.type==="dir").map(x=>x.name);
+ if(folders.length){stories=folders.sort((a,b)=>a.localeCompare(b,"zh-Hans"));render();}
+ }catch(e){console.warn("Using built-in story list; GitHub discovery unavailable:",e);}
+})();
+</script>
+</body></html>
